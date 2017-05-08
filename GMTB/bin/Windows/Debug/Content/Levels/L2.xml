@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type ="GMTB.LevelManager">
+		<Level>
+			<LevelNum>2</LevelNum>
+			<LevelTex>Backgrounds\\PrototypeBackgroundMarthasRoom</LevelTex>
+			<Doors>
+			  <Door>
+				<DoorX>260</DoorX>
+				<DoorY>285</DoorY>
+				<PlayerX>160</PlayerX>
+				<PlayerY>240</PlayerY>
+				<TargetLevel>L1</TargetLevel>
+			  </Door>
+			</Doors>
+		</Level>
+	</Asset>
+</XnaContent>

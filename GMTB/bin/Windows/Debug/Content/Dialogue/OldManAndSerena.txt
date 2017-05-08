@@ -1,0 +1,13 @@
+﻿Old Man: Hello little one.
+Serena: Hi.
+Old Man: You look a little lost?
+Serena: You aren't going to attack me or try chase me?
+Old Man: *Laughs* Oh no, dear. I'll be your friend, just like I was the other one. 
+Serena: The other one?
+Old Man: Now now. Here take this. It will help you.
+You have acquired a new item. 
+Old Man: On you go now. I assume you will know what to do with this. They did.
+Serena: They?
+Old Man stays quiet.
+Serena: Sir?
+Old Man turns away.

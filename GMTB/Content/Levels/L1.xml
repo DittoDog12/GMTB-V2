@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type ="GMTB.LevelManager">
+      <Level>
+        <LevelNum>1</LevelNum>
+        <LevelTex>Backgrounds\\SpawnRoomBackground</LevelTex>
+        <Doors>
+          <Door>
+            <DoorX>450</DoorX>
+            <DoorY>285</DoorY>
+            <PlayerX>240</PlayerX>
+            <PlayerY>350</PlayerY>
+            <TargetLevel>L2</TargetLevel>
+          </Door>
+        </Doors>
+		<Entities>
+			<Entity>
+				<Type>FriendlyAI</Type>
+				<X>400</X>
+				<Y>240</Y>
+			</Entity>
+			<Entity>
+				<Type>HighLevelAI</Type>
+				<X>640</X>
+				<Y>240</Y>
+			</Entity>
+			<Entity>
+				<Type>HidingPlace</Type>
+				<X>160</X>
+				<Y>150</Y>
+			</Entity>
+		</Entities>
+      </Level>
+  </Asset>
+</XnaContent>

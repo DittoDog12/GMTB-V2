@@ -1,0 +1,261 @@
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\GMTB.exe
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\GMTB.pdb
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\MonoGame.Framework.dll
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.dll
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.XAudio2.dll
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct3D11.dll
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.DXGI.dll
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct2D1.dll
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.XInput.dll
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.RawInput.dll
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct3D9.dll
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\MonoGame.Framework.xml
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.xml
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.XAudio2.xml
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct3D11.xml
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.DXGI.xml
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct2D1.xml
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.XInput.xml
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.RawInput.xml
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct3D9.xml
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\obj\x86\Debug\GMTB.csprojResolveAssemblyReference.cache
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\obj\x86\Debug\GMTB.exe
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\obj\x86\Debug\GMTB.pdb
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\square2.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\obj\x86\Debug\GMTB.exe
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\obj\x86\Debug\GMTB.pdb
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\square2.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\GMTB.exe
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\GMTB.pdb
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\MonoGame.Framework.dll
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.dll
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.XAudio2.dll
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct3D11.dll
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.DXGI.dll
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct2D1.dll
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.XInput.dll
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.RawInput.dll
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct3D9.dll
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\MonoGame.Framework.xml
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.xml
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.XAudio2.xml
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct3D11.xml
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.DXGI.xml
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct2D1.xml
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.XInput.xml
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.RawInput.xml
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct3D9.xml
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Player Images\JBW.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Player Images\JLW.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Player Images\JRW.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Player Images\JBWTick.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Player Images\JFW.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Player Images\JBW.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Player Images\JBWTick.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Player Images\JFW.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Player Images\JLW.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Player Images\JRW.png
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\obj\x86\Debug\GMTB.exe
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\obj\x86\Debug\GMTB.pdb
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\MFW.png
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Player Images\JBW.png
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Player Images\JBWTick.png
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Player Images\JFW.png
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Player Images\JLW.png
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Player Images\JRW.png
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\square.png
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\square2.png
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\squaresheet.png
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\GMTB.exe
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\GMTB.pdb
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\MonoGame.Framework.dll
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.dll
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.XAudio2.dll
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct3D11.dll
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.DXGI.dll
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct2D1.dll
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.XInput.dll
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.RawInput.dll
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct3D9.dll
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\MonoGame.Framework.xml
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.xml
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.XAudio2.xml
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct3D11.xml
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.DXGI.xml
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct2D1.xml
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.XInput.xml
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.RawInput.xml
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct3D9.xml
+G:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\obj\x86\Debug\GMTB.csprojResolveAssemblyReference.cache
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\BlueDoll.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\BlueDoll.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\obj\x86\Debug\GMTB.exe
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\obj\x86\Debug\GMTB.pdb
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\BlueDoll.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Player Images\JBW.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Player Images\JBWTick.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Player Images\JFW.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Player Images\JLW.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Player Images\JRW.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\square2.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\HudText.xnb
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\GMTB.exe
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\GMTB.pdb
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\MonoGame.Framework.dll
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.dll
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.XAudio2.dll
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct3D11.dll
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.DXGI.dll
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct2D1.dll
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.XInput.dll
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.RawInput.dll
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct3D9.dll
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\MonoGame.Framework.xml
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.xml
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.XAudio2.xml
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct3D11.xml
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.DXGI.xml
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct2D1.xml
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.XInput.xml
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.RawInput.xml
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\SharpDX.Direct3D9.xml
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\obj\x86\Debug\GMTB.csprojResolveAssemblyReference.cache
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\HudText.xnb
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Backgrounds\SpawnRoomBackground.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Dialogue\A.I.AfterMartha.txt
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Dialogue\A.I.AndSerena.txt
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Dialogue\A.I.AndSerenaAfterOldMan.txt
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Dialogue\FirstEncounter.txt
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Dialogue\OldManAndSerena.txt
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Backgrounds\SpawnRoomBackground.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Dialogue\A.I.AfterMartha.txt
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Dialogue\A.I.AndSerena.txt
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Dialogue\A.I.AndSerenaAfterOldMan.txt
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Dialogue\FirstEncounter.txt
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Dialogue\OldManAndSerena.txt
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Backgrounds\GameOver.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\HudText.xnb
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\obj\x86\Debug\GMTB.csprojResolveAssemblyReference.cache
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Levels\L1.xml
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Levels\L2.xml
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\AdultsBedLong.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Backgrounds\GameOver.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Backgrounds\PrototypeBackgroundMarthasRoom.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Backgrounds\SpawnRoomBackground.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Dialogue\A.I.AfterMartha.txt
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Dialogue\A.I.AndSerena.txt
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Dialogue\A.I.AndSerenaAfterOldMan.txt
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Dialogue\FirstEncounter.txt
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Dialogue\OldManAndSerena.txt
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\Matron\MBW.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\Matron\MFW.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\Matron\MLW.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\Matron\MRW.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseA\NAMB.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseA\NAMF.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseA\NAML.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseA\NAMR.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseB\NBMF.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseB\NBML.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseB\NBMR.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseB\NBWB.png
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Levels\L1.xml
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Levels\L2.xml
+D:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\NPC\TaskGiverFront.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Levels\L1.xml
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Levels\L2.xml
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\GMTB.exe.config
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\GMTB.exe.config
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\Martha\Back.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\Martha\Front.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\Martha\Left.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\Martha\Right.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseA\Back.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseA\Front.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseA\Left.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseA\Right.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\NPC\OldMan\Front.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\NPC\PatientZelda\Front.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\NPC\PatientZelda\Left.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\NPC\PatientZelda\Right.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\NPC\OldMan\Back.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\Martha\Back.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\Martha\Front.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\Martha\Left.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\Martha\Right.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseA\Back.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseA\Front.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseA\Left.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseA\Right.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\NPC\OldMan\Front.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\NPC\PatientZelda\Front.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\NPC\PatientZelda\Left.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\NPC\PatientZelda\Right.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\NPC\OldMan\Back.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\exit.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\start.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\load.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\resume.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\save.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\exit.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\load.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\resume.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\save.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\start.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\JumpScare\Front.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Backgrounds\BoardRoomBackground.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Backgrounds\GameOver.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Backgrounds\Hall1Background.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Backgrounds\HallandEnterenceBackground.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Backgrounds\HomeScreenBackground.jpg
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Backgrounds\MatronsOfficeBackground.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Backgrounds\SecondWardBackground.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Backgrounds\BoardRoomBackground.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Backgrounds\Hall1Background.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Backgrounds\HallandEnterenceBackground.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Backgrounds\HomeScreenBackground.jpg
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Backgrounds\MatronsOfficeBackground.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Backgrounds\SecondWardBackground.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\JumpScare\Front.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseB\Front.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseB\Left.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseB\Right.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseB\Back.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\ACross.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\AdultsBedLong.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\AdultsBedSideL.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\AdultsBedSideR.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\ChairBack.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\ChairFront.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\Desk.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\DeskChairOtherSide.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\DeskChairSide.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\PlantBlueBase.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\Table.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\Wardrope.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseB\Front.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseB\Left.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseB\Right.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Enemy\NurseB\Back.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\ACross.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\AdultsBedLong.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\AdultsBedSideL.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\AdultsBedSideR.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\ChairBack.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\ChairFront.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\Desk.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\DeskChairOtherSide.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\DeskChairSide.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\PlantBlueBase.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\Table.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\Wardrope.png
+E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\TestTubeBottle.png
+X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\TestTubeBottle.png
