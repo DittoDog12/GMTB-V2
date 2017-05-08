@@ -1,4 +1,4 @@
-# GMTB-Engine
+# GMTB-Engine Version 2
 Redesign of GMTB Engine from Game Desgin and Engineering module.
 Personal project to update the engine with ideas and features that were not required for the assignment.
 
