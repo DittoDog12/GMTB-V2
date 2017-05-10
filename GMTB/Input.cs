@@ -4,6 +4,21 @@ using Microsoft.Xna.Framework.Input;
 
 namespace GMTB
 {
+    #region Input Event
+    /// <summary>
+    /// Input Event mini class
+    /// </summary> 
+    public class InputEvent : EventArgs
+    {
+        public Keys currentKey;
+
+        public InputEvent(Keys key)
+        {
+            currentKey = key;
+        }
+    }
+    #endregion
+
     /// <summary>
     /// Main input detection system
     /// </summary>

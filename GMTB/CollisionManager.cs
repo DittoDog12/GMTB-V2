@@ -3,6 +3,30 @@ using System.Collections.Generic;
 
 namespace GMTB
 {
+    #region Collision Event
+    /// <summary>
+    /// Collision Event MiniClass
+    /// </summary>
+    public class CollisionEvent : EventArgs
+    {
+        public Collidable Entity;
+        public IWall Wall;
+        public CollisionEvent(Collidable entity)
+        {
+            Entity = entity;
+        }
+        public CollisionEvent(Collidable entity, IWall wall)
+        {
+            Wall = wall;
+            Entity = entity;
+        }
+        public CollisionEvent()
+        {
+
+        }
+    }
+    #endregion
+
     /// <summary>
     /// Main Collision detection manager, calls the Entities Collision Method in the event of a collision
     /// Also checks for AI colliding with walls

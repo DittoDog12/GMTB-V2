@@ -3,6 +3,21 @@ using System.Collections.Generic;
 
 namespace GMTB
 {
+    #region Proximity Event
+    /// <summary>
+    /// Proximity Event mini class
+    /// </summary>
+    public class ProximityEvent : EventArgs
+    {
+        public hasProximity Entity;
+    public ProximityEvent(hasProximity entity)
+    {
+        Entity = entity;
+    }
+
+}
+#endregion
+
     /// <summary>
     /// Proximity detection manager, checks to see if the player is inside a proximity box
     /// </summary>

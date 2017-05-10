@@ -68,8 +68,6 @@
     <Compile Include="Level.cs" />
     <Compile Include="MainMenu.cs" />
     <Compile Include="PauseMenu.cs" />
-    <Compile Include="ProximityEvent.cs" />
-    <Compile Include="CollisionEvent.cs" />
     <Compile Include="hasProximity.cs" />
     <Compile Include="ProximityManager.cs" />
     <Compile Include="CollisionManager.cs" />
@@ -80,7 +78,6 @@
     <Compile Include="EntityManager.cs" />
     <Compile Include="Global.cs" />
     <Compile Include="HidingPlace.cs" />
-    <Compile Include="InputEvent.cs" />
     <Compile Include="IPlayer.cs" />
     <Compile Include="IScript.cs" />
     <Compile Include="Kernel.cs" />
