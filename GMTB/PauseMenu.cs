@@ -21,6 +21,14 @@ namespace GMTB
         private Texture2D resumeButton;
         private Vector2 resumePosition;
 
+        private Texture2D saveButton;
+        private Vector2 savePosition;
+
+        private bool saved = false;
+        private SpriteFont mFont;
+        private Vector2 TextPosition;
+        private string TextDisplay;
+
         MouseState mouseState;
 
         MouseState previousMouseState;
@@ -32,6 +40,10 @@ namespace GMTB
             //Background = "Backgrounds/SpawnRoomBackground";
             Content = Global.Content;
             //RoomManager.getInstance.Room = Background;
+            mFont = Content.Load<SpriteFont>("HudText");
+            TextPosition.X = 50;
+            TextPosition.Y = Kernel.ScreenHeight - 50;
+            TextDisplay = "Saved";
         }
         #endregion
 
@@ -47,8 +59,8 @@ namespace GMTB
             exitButton = Content.Load<Texture2D>("Exit");
 
             // create save button, position it center, offset by texture width
-            //saveButton = Content.Load<Texture2D>("save");
-            //savePosition = new Vector2(Kernel.ScreenWidth - ((Kernel.ScreenWidth / 2)-(saveButton.Width / 2)), Kernel.ScreenHeight - 50);
+            saveButton = Content.Load<Texture2D>("save");
+            savePosition = new Vector2(Kernel.ScreenWidth - ((Kernel.ScreenWidth / 2) - (saveButton.Width / 2)), Kernel.ScreenHeight - 50);
 
         }
 
@@ -56,7 +68,11 @@ namespace GMTB
         {
             spriteBatch.Draw(resumeButton, resumePosition, Color.White);
             spriteBatch.Draw(exitButton, exitPosition, Color.White);
-            //spriteBatch.Draw(saveButton, savePosition, Color.White);
+            spriteBatch.Draw(saveButton, savePosition, Color.White);
+
+            if (saved == true)
+                spriteBatch.DrawString(mFont, TextDisplay, TextPosition, Color.White);
+
         }
         public void Update(GameTime gameTime)
         {
@@ -72,18 +88,19 @@ namespace GMTB
             // Create a Rectangle around the mouse click position
             Rectangle mouseClickedRect = new Rectangle(x, y, 10, 10);
 
-            //Rectangle saveRect = new Rectangle((int)savePosition.X, (int)savePosition.Y, saveButton.Width, saveButton.Height);
+            Rectangle saveRect = new Rectangle((int)savePosition.X, (int)savePosition.Y, saveButton.Width, saveButton.Height);
             Rectangle exitRect = new Rectangle((int)exitPosition.X, (int)exitPosition.Y, exitButton.Width, exitButton.Height);
             Rectangle resumeRect = new Rectangle((int)resumePosition.X, (int)resumePosition.Y, resumeButton.Width, resumeButton.Height);
 
             if (mouseClickedRect.Intersects(resumeRect))
             {
                 Kernel._gameState = Kernel.GameStates.Loading;
+                saved = false;
             }
             else if (mouseClickedRect.Intersects(exitRect))
                 Kernel._gameState = Kernel.GameStates.Exiting;
-            //else if (mouseClickedRect.Intersects(saveRect))
-            //    SceneManager.getInstance.Save();
+            else if (mouseClickedRect.Intersects(saveRect))
+                saved = SceneManager.getInstance.InitiateSave();
         }
         public void Sub()
         {
@@ -98,6 +115,7 @@ namespace GMTB
         public void onEsc(object source, EventArgs args)
         {
             Kernel._gameState = Kernel.GameStates.Loading;
+            saved = false;
         }
         #endregion
     }

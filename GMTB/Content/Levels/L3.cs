@@ -5,7 +5,7 @@ using GMTB.AI;
 
 namespace GMTB.Content.Levels
 {
-    class L3 : Level
+    public class L3 : Level
     {
         #region Constructor
         public L3() : base()

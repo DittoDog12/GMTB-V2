@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 
-namespace GMTB.Content.Levels
-{
+namespace GMTB
+{ 
     /// <summary>
     /// Main level class, all level descriptors inherit from this
     /// </summary>

@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework;
 
 namespace GMTB.Content.Levels
 {
-    class L5 : Level
+    public class L5 : Level
     {
         private int[] Tablepos;
         #region Constructor

@@ -1,9 +1,22 @@
 ﻿using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using System;
+using System.IO;
+using System.Threading.Tasks;
+using System.Xml.Serialization;
+using Microsoft.Xna.Framework.Storage;
 
 namespace GMTB
 {
+    #region SaveData  
+    public struct SaveData
+    {
+        public Vector2 PlayerPos;
+        public string level;
+        public bool Visible;
+    }
+    #endregion
     public class SceneManager
     {
         /// <summary>
@@ -15,6 +28,10 @@ namespace GMTB
         private List<IEntity> mEntities;
         private List<IEntity> mSceneGraph;
         Microsoft.Xna.Framework.Content.ContentManager Content;
+
+        StorageDevice device;
+        string containerName = "GMTBSaveData";
+        string filename = "InfirmarySave.sav";
         #endregion
 
         #region Accessors
@@ -49,20 +66,89 @@ namespace GMTB
         #endregion
 
         #region Methods
-        //public void load()
-        //{
+        internal void InitiateLoad()
+        {
+            device = null;
+            StorageDevice.BeginShowSelector(this.Load, null);
+        }
+        private void Load(IAsyncResult result)
+        {
+            // Open Storage Device
+            device = StorageDevice.EndShowSelector(result);
+            // Open Storage Container
+            IAsyncResult r = device.BeginOpenContainer(containerName, null, null);
+            result.AsyncWaitHandle.WaitOne();
+            StorageContainer container = device.EndOpenContainer(r);
+
+            result.AsyncWaitHandle.Close();
+
+            if (container.FileExists(filename))
+            {
+                Stream stream = container.OpenFile(filename, FileMode.Open);
+                XmlSerializer serializer = new XmlSerializer(typeof(SaveData));
+                SaveData save = (SaveData)serializer.Deserialize(stream);
+                stream.Close();
+                container.Dispose();
+
+                // Apply save data to world
+                // Create Player and place at saved location
+                IEntity createdEntity = EntityManager.getInstance.newEntity<Player>(PlayerIndex.One);
+                SceneManager.getInstance.newEntity(createdEntity, (int)save.PlayerPos.X, (int)save.PlayerPos.Y);
+                LevelManager.getInstance.NewLevel(save.level);
+
+                Kernel._gameState = Kernel.GameStates.Loading;
+            }
 
 
-        //    Kernel._gameState = Kernel.GameStates.Loading;
-        //}
-        //public void Save()
-        //{
-        //    // Open Storage Container
-        //    IAsyncResult result = device.BeginOpenContainer("StorageDevice", null, null);
-        //    result.AsyncWaitHandle.WaitOne();
+        }
 
-            
-        //}
+        internal bool InitiateSave()
+        {
+            device = null;
+            bool rtn;
+            IAsyncResult r = StorageDevice.BeginShowSelector(Save, null);
+            //if (r != null)
+            //    rtn = true;
+            //else rtn = false;
+            //return rtn;
+            return r.IsCompleted;
+        }
+
+        private void Save(IAsyncResult result)
+        {
+            // Open Storage Device
+            device = StorageDevice.EndShowSelector(result);
+            if (device != null && device.IsConnected)
+            {
+                // Create save point
+                SaveData save = new SaveData()
+                {
+                    PlayerPos = Global.PlayerPos,
+                    level = LevelManager.getInstance.CurrentLevel.LvlID,
+                    Visible = Global.Player.Visible,
+                };
+
+                // Open Storage Container
+                IAsyncResult r = device.BeginOpenContainer(containerName, null, null);
+                result.AsyncWaitHandle.WaitOne();
+                StorageContainer container = device.EndOpenContainer(r);
+
+                // Delete existing save if exists
+                if (container.FileExists(filename))
+                    container.DeleteFile(filename);
+
+                // Create XML Stream
+                Stream stream = container.CreateFile(filename);
+                // Create XML Serializer
+                XmlSerializer serializer = new XmlSerializer(typeof(SaveData));
+                // Serialize and save to file
+                serializer.Serialize(stream, save);
+                // Close all files
+                stream.Close();
+                container.Dispose();
+                result.AsyncWaitHandle.Close();
+            }
+        }
 
         public void newEntity(IEntity createdEntity, int x, int y)
         {

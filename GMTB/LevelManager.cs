@@ -16,6 +16,13 @@ namespace GMTB
         private bool firstRun = true;
         #endregion
 
+        #region Accessors
+        public Level CurrentLevel
+        {
+            get { return currLevel; }
+        }
+        #endregion
+
         #region Constructor
         private LevelManager()
         {

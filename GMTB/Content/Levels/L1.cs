@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework;
 
 namespace GMTB.Content.Levels
 {
-    class L1 : Level
+    public class L1 : Level
     {
         #region Data Members
 

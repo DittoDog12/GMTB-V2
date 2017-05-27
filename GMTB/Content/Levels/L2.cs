@@ -6,7 +6,7 @@ using GMTB.AI;
 
 namespace GMTB.Content.Levels
 {
-    class L2 : Level
+    public class L2 : Level
     {
         #region Data Members
         //private string MarthaStatus;

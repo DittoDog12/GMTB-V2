@@ -8,12 +8,12 @@ using GMTB.AI;
 
 namespace GMTB.Content.Levels
 {
-    class L6 : Level
+    public class L6 : Level
     {
         private int[] BedPositions;
         private int ItemUID;
         #region Constructor
-        public L6() :base()
+        public L6() : base()
         {
             bg = "backgrounds\\SecondWardBackground";
             BedPositions = new int[4];
@@ -31,7 +31,7 @@ namespace GMTB.Content.Levels
             if (firstRun == true)
             {
                 // Beds
-                for (int i = 0; i< BedPositions.Length; i++)
+                for (int i = 0; i < BedPositions.Length; i++)
                 {
                     createdEntity = EntityManager.getInstance.newEntity<HidingPlace>("Game Items/AdultsBedSideL");
                     SceneManager.getInstance.newEntity(createdEntity, 40, BedPositions[i]);

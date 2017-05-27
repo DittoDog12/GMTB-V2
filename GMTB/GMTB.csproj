@@ -61,7 +61,6 @@
     <Compile Include="InvisibleWall.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="IWall.cs" />
-    <Compile Include="SaveData.cs" />
     <Compile Include="Collidable.cs" />
     <Compile Include="Content\Levels\L1.cs" />
     <Compile Include="Content\Levels\L2.cs" />
