@@ -54,6 +54,12 @@ namespace GMTB
             get { return mWalls; }
             set { mWalls = value; }
         }
+
+        public List<Collidable> All
+        {
+            get { return AllCollidables; }
+            set { AllCollidables = value; }
+        }
         #endregion
 
         #region Constructor

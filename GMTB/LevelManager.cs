@@ -20,6 +20,13 @@ namespace GMTB
         public Level CurrentLevel
         {
             get { return currLevel; }
+            set { currLevel = value; }
+        }
+
+        public List<Level> AllLvls
+        {
+            get { return AllLoadedLevels; }
+            set { AllLoadedLevels = value; }
         }
         #endregion
 

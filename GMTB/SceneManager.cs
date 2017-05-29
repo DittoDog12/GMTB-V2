@@ -3,7 +3,6 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.IO;
-using System.Threading.Tasks;
 using System.Xml.Serialization;
 using Microsoft.Xna.Framework.Storage;
 
@@ -105,12 +104,7 @@ namespace GMTB
         internal bool InitiateSave()
         {
             device = null;
-            bool rtn;
             IAsyncResult r = StorageDevice.BeginShowSelector(Save, null);
-            //if (r != null)
-            //    rtn = true;
-            //else rtn = false;
-            //return rtn;
             return r.IsCompleted;
         }
 

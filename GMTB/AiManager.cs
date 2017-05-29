@@ -17,6 +17,14 @@ namespace GMTB
         private List<IEntity> Entities;
         #endregion
 
+        #region Accessors
+        public List<IAI> AIs
+        {
+            get { return AllAIs; }
+            set { AllAIs = value; }
+        }
+        #endregion
+
         #region Constructor
         private AiManager()
         {

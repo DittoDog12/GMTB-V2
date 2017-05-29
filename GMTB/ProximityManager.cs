@@ -32,6 +32,13 @@ namespace GMTB
         private List<hasProximity> AllProximity;
         #endregion
 
+        #region Accessors
+        public List<hasProximity> All
+        {
+            get { return AllProximity; }
+            set { AllProximity = value; }
+        }
+        #endregion
 
         #region Constructor
         private ProximityManager()

@@ -20,12 +20,14 @@ namespace GMTB
             }
         }
         #endregion
+
         #region Accessors
         public bool Collected
         {
             get { return mCollected; }
         }
         #endregion
+
         #region Constructor
         public Item()
         {

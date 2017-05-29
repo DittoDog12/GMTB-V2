@@ -24,8 +24,10 @@ namespace GMTB
         public List<IEntity> Entities
         {
             get { return mEntities; }
+            set { mEntities = value; }
         }
         #endregion
+
         #region Constructor
         private EntityManager()
         {
