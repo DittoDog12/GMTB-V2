@@ -26,13 +26,7 @@ namespace GMTB
         public GameOver()
         {
             Content = Global.Content;
-        }
-        #endregion
 
-        #region Methods
-        public void Initialize(SpriteBatch spriteBatch)
-        {
-            RoomManager.getInstance.Room = "Backgrounds/GameOver";
             // create Exit button, positioned center, near the bottom
             exitPosition = new Vector2(Global.ScreenWidth - (Global.ScreenWidth / 4), Global.ScreenHeight - 75);
             exitButton = Content.Load<Texture2D>("Exit");
@@ -40,6 +34,13 @@ namespace GMTB
             // create Start button, position a quarter the distance across the screen from the left, near the bottom
             startPosition = new Vector2(Global.ScreenWidth / 4, Global.ScreenHeight - 75);
             startButton = Content.Load<Texture2D>("start");
+        }
+        #endregion
+
+        #region Methods
+        public void Initialize(SpriteBatch spriteBatch)
+        {
+            RoomManager.getInstance.Room = "Backgrounds/GameOver";
         }
 
         public void Draw(SpriteBatch spriteBatch)

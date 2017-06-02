@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 
 
-namespace The_Infirmary
+namespace The_Infirmary.Levels
 {
     public class L5 : Level
     {

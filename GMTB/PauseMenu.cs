@@ -44,12 +44,7 @@ namespace GMTB
             TextPosition.X = 50;
             TextPosition.Y = Global.ScreenHeight - 50;
             TextDisplay = "Saved";
-        }
-        #endregion
 
-        #region Methods
-        public void Initialize(SpriteBatch spriteBatch)
-        {
             // create Start button, position a quarter the distance across the screen from the left, near the bottom
             resumePosition = new Vector2(Global.ScreenWidth / 4, Global.ScreenHeight - 75);
             resumeButton = Content.Load<Texture2D>("resume");
@@ -61,9 +56,10 @@ namespace GMTB
             // create save button, position it center, offset by texture width
             saveButton = Content.Load<Texture2D>("save");
             savePosition = new Vector2(Global.ScreenWidth - ((Global.ScreenWidth / 2) - (saveButton.Width / 2)), Global.ScreenHeight - 50);
-
         }
+        #endregion
 
+        #region Methods
         public void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(resumeButton, resumePosition, Color.White);

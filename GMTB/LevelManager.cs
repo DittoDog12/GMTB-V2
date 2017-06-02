@@ -12,6 +12,7 @@ namespace GMTB
         private Level currLevel;
         private List<IEntity> Removables;
         private List<Level> AllLoadedLevels;
+        private List<Level> AllLevels;
         private bool firstRun = true;
         #endregion
 
@@ -47,7 +48,12 @@ namespace GMTB
         #endregion
 
         #region Methods
-
+        public void InitialiseAllLevels(List<Level> Levels)
+        {
+            AllLevels = new List<Level>();
+            foreach (Level l in Levels)
+                AllLevels.Add(l);
+        }
 
 
         public void NewLevel(string LevelID)
@@ -61,8 +67,10 @@ namespace GMTB
             }
             if (firstRun == true)
             {
-                string openLevel = "The_Infirmary.Content.Levels." + LevelID;
-                currLevel = System.Reflection.Assembly.GetExecutingAssembly().CreateInstance(openLevel) as Level;
+                foreach (Level l in AllLevels)
+                    if (l.LvlID == LevelID)
+                        currLevel = l;
+
                 AllLoadedLevels.Add(currLevel);
                 firstRun = false;
             }
@@ -81,8 +89,10 @@ namespace GMTB
 
                 if (newLevel == true)
                 {
-                    string openLevel = "GMTB.Content.Levels." + LevelID;
-                    currLevel = System.Reflection.Assembly.GetExecutingAssembly().CreateInstance(openLevel) as Level;
+                    foreach (Level l in AllLevels)
+                        if (l.LvlID == LevelID)
+                            currLevel = l;
+
                     AllLoadedLevels.Add(currLevel);
                 }
             }

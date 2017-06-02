@@ -1,4 +1,6 @@
 ﻿using GMTB;
+using System;
+using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
@@ -27,6 +29,7 @@ namespace The_Infirmary
         public static int ScreenWidth;
         public static int ScreenHeight;
 
+        private int TotalLevels = 6;
 
         // Create empty IEntity object to hold entities during creation
         //private IEntity createdEntity;
@@ -70,6 +73,21 @@ namespace The_Infirmary
 
             // TODO: use this.Content to load your game content here           
             MenuManager.getInstance.MainMenu("Backgrounds/HomeScreenBackground").Initialize(spriteBatch);
+
+            // Load all levels into list, pass list to Level Manager
+            List<Level> Levels = new List<Level>();
+
+            for (int i = 0; i < TotalLevels; i++)
+            {
+                int lvlid = i + 1;
+                string LeveltoOpen = "The_Infirmary.Levels.L" + lvlid;
+                Type t = Type.GetType(LeveltoOpen,true);           
+                Level lvl = Activator.CreateInstance(t) as Level;
+                Levels.Add(lvl);
+            }
+
+            LevelManager.getInstance.InitialiseAllLevels(Levels);
+
         }
 
         /// <summary>
@@ -117,9 +135,6 @@ namespace The_Infirmary
             else if (Global.GameState == Global.availGameStates.Paused)
             {
                 IsMouseVisible = true;
-                if (MenuManager.getInstance.PauseMenu() == null)
-                    MenuManager.getInstance.PauseMenu().Initialize(spriteBatch);
-
                 if (!MenuManager.getInstance.PauseMenu().isSubbed)
                     MenuManager.getInstance.PauseMenu().Sub();
             }
@@ -127,10 +142,7 @@ namespace The_Infirmary
             {
                 IsMouseVisible = true;
                 Input.getInstance.unSubscribeExit(onEsc);
-
-                if (MenuManager.getInstance.GameOverMenu() == null)
-                    MenuManager.getInstance.GameOverMenu().Initialize(spriteBatch); 
-                       
+                MenuManager.getInstance.GameOverMenu().Initialize(spriteBatch);          
                 MenuManager.getInstance.GameOverMenu().Update(gameTime);
             }
                 

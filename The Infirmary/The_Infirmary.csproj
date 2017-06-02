@@ -42,12 +42,12 @@
     <StartupObject>The_Infirmary.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Content\Levels\L1.cs" />
-    <Compile Include="Content\Levels\L2.cs" />
-    <Compile Include="Content\Levels\L3.cs" />
-    <Compile Include="Content\Levels\L4.cs" />
-    <Compile Include="Content\Levels\L5.cs" />
-    <Compile Include="Content\Levels\L6.cs" />
+    <Compile Include="Levels\L1.cs" />
+    <Compile Include="Levels\L2.cs" />
+    <Compile Include="Levels\L3.cs" />
+    <Compile Include="Levels\L4.cs" />
+    <Compile Include="Levels\L5.cs" />
+    <Compile Include="Levels\L6.cs" />
     <Compile Include="Kernel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -186,10 +186,10 @@
     <Content Include="Content\Game Items\Wardrope.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\Levels\L1.xml">
+    <Content Include="Levels\L1.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\Levels\L2.xml">
+    <Content Include="Levels\L2.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\load.png">

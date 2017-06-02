@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework;
 
 
 
-namespace The_Infirmary
+namespace The_Infirmary.Levels
 {
     public class L3 : Level
     {

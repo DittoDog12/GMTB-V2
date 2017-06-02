@@ -39,8 +39,6 @@ E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Co
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\Table.png
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\TestTubeBottle.png
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\Wardrope.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Levels\L1.xml
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Levels\L2.xml
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\load.png
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\NPC\OldMan\Front.png
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\NPC\PatientZelda\Front.png
@@ -84,3 +82,5 @@ E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Sh
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\obj\x86\Debug\The_Infirmary.csprojResolveAssemblyReference.cache
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\obj\x86\Debug\The Infirmary.exe
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\obj\x86\Debug\The Infirmary.pdb
+E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Levels\L1.xml
+E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Levels\L2.xml
