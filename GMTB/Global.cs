@@ -8,6 +8,31 @@ namespace GMTB
     public static class Global
     {
         /// <summary>
+        /// static enum to hold the GameStates
+        /// </summary>
+        public enum availGameStates
+        {
+            Menu,
+            Playing,
+            GameOver,
+            Dialogue,
+            Loading,
+            Exiting,
+            Paused
+        }
+
+        /// <summary>
+        /// Static availGameStates to hold the current GameState
+        /// </summary>
+        static availGameStates _GameState;
+
+        /// <summary>
+        /// static Ints to hold Screen Size
+        /// </summary>
+        static int _ScreenHeight;
+        static int _ScreenWidth;
+
+        /// <summary>
         /// Static Boolean to pause all activity while a dialouge box is running
         /// </summary>
         static bool _PauseInput;
@@ -31,6 +56,29 @@ namespace GMTB
         /// Static Reference to the Player, used for doors
         /// </summary>
         static IPlayer _player;
+
+        /// <summary>
+        /// Accessor for _GameState
+        /// </summary>
+        public static availGameStates GameState
+        {
+            get { return _GameState; }
+            set { _GameState = value; }
+        }
+
+        /// <summary>
+        /// Accessors for Screen Size
+        /// </summary>
+        public static int ScreenHeight
+        {
+            get { return _ScreenHeight; }
+            set { _ScreenHeight = value; }
+        }
+        public static int ScreenWidth
+        {
+            get { return _ScreenWidth; }
+            set { _ScreenWidth = value; }
+        }
 
         /// <summary>
         /// Accessor for _PauseInput

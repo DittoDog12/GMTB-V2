@@ -3,7 +3,7 @@
 namespace GMTB.AI
 {
  /// <summary>
- /// Main hostile AI behaviours, difficulty modified by child classes
+ /// Main hostile AI behaviours, difficulty modified by child public classes
  /// </summary>
  public class HostileAI : AllAI, Collidable, hasProximity
     {
@@ -85,6 +85,7 @@ namespace GMTB.AI
                 default:
                     break;
             }
+            
 
         }
         public void FollowPlayer(GameTime gameTime)
@@ -129,7 +130,7 @@ namespace GMTB.AI
             if (args.Entity == this && args.Wall == null)
             {
                 RoomManager.getInstance.Room = "Backgrounds/GameOver";
-                Kernel._gameState = Kernel.GameStates.GameOver;
+                Global.GameState = Global.availGameStates.GameOver;
             }
         }
         public void inProximity(object source, ProximityEvent args)
@@ -151,7 +152,7 @@ namespace GMTB.AI
             }
             //if (mState == "Idle")
             //{
-            //    if (mPlayerPos.X >= Kernel.ScreenWidth / 2)
+            //    if (mPlayerPos.X >= Global.ScreenWidth / 2)
             //    {
             //        mState = "Follow";
             //        ActivityTimer = (float)gameTime.ElapsedGameTime.TotalMilliseconds;

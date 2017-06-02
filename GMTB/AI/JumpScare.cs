@@ -5,13 +5,13 @@ namespace GMTB.AI
     /// <summary>
     /// AI desigend to chase the player once then stand still
     /// </summary>
-    class JumpScare : HostileAI
+    public class JumpScare : HostileAI
     {
         public JumpScare()
         {
             mUName = "JumpScare";
             mSpeed = 0.75f;
-            interval = 75f;
+            interval = 100f;
             mState = "Follow";
 
             mScare = true;
@@ -27,12 +27,13 @@ namespace GMTB.AI
         {
             if (mScare == true)
             {
+                base.Update(gameTime);
                 mDistanceToDest = mPlayerPos - mPosition;
                 mDistanceToDest.Normalize();
 
                 mVelocity = mDistanceToDest * mSpeed;
-                CurrentFrame++;
-                base.Update(gameTime);
+                CurrentFrame++;               
+                FrameReset();
             }
             else
             {

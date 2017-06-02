@@ -5,7 +5,7 @@ namespace GMTB
 {
     #region Proximity Event
     /// <summary>
-    /// Proximity Event mini class
+    /// Proximity Event mini public class
     /// </summary>
     public class ProximityEvent : EventArgs
     {

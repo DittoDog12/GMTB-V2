@@ -1,12 +1,11 @@
 ﻿using System.Collections.Generic;
-using GMTB.Content.Levels;
 
 namespace GMTB
 {
     /// <summary>
     /// Main level manager, controls removal of old entities and loading of new level
     /// </summary>
-    class LevelManager
+    public class LevelManager
     {
         #region Data Members
         private static LevelManager Instance = null;
@@ -62,7 +61,7 @@ namespace GMTB
             }
             if (firstRun == true)
             {
-                string openLevel = "GMTB.Content.Levels." + LevelID;
+                string openLevel = "The_Infirmary.Content.Levels." + LevelID;
                 currLevel = System.Reflection.Assembly.GetExecutingAssembly().CreateInstance(openLevel) as Level;
                 AllLoadedLevels.Add(currLevel);
                 firstRun = false;

@@ -6,7 +6,7 @@ namespace GMTB
 {
     #region Input Event
     /// <summary>
-    /// Input Event mini class
+    /// Input Event mini public class
     /// </summary> 
     public class InputEvent : EventArgs
     {
@@ -122,7 +122,7 @@ namespace GMTB
         {
             KeyboardState newState = Keyboard.GetState();
             // Halt input detection if the global trigger is set, usually if Dialogue is running
-            if (Kernel._gameState == Kernel.GameStates.Playing)
+            if (Global.GameState == Global.availGameStates.Playing)
             {
 
 

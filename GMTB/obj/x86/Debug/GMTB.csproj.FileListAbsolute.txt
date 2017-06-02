@@ -259,69 +259,7 @@ X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game 
 X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\Wardrope.png
 E:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\TestTubeBottle.png
 X:\_Uni\Y2\Game Design and Engineering\GMTB\GMTB\bin\Windows\Debug\Content\Game Items\TestTubeBottle.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\GMTB.exe.config
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\obj\x86\Debug\GMTB.exe
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\obj\x86\Debug\GMTB.pdb
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Backgrounds\BoardRoomBackground.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Backgrounds\GameOver.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Backgrounds\Hall1Background.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Backgrounds\HallandEnterenceBackground.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Backgrounds\HomeScreenBackground.jpg
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Backgrounds\MatronsOfficeBackground.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Backgrounds\SecondWardBackground.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Backgrounds\SpawnRoomBackground.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\BlueDoll.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Dialogue\A.I.AfterMartha.txt
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Dialogue\A.I.AndSerena.txt
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Dialogue\A.I.AndSerenaAfterOldMan.txt
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Dialogue\FirstEncounter.txt
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Dialogue\OldManAndSerena.txt
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Enemy\JumpScare\Front.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Enemy\Martha\Back.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Enemy\Martha\Front.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Enemy\Martha\Left.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Enemy\Martha\Right.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Enemy\NurseA\Back.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Enemy\NurseA\Front.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Enemy\NurseA\Left.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Enemy\NurseA\Right.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Enemy\NurseB\Front.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Enemy\NurseB\Left.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Enemy\NurseB\Right.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Enemy\NurseB\Back.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\exit.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Game Items\ACross.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Game Items\AdultsBedLong.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Game Items\AdultsBedSideL.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Game Items\AdultsBedSideR.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Game Items\ChairBack.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Game Items\ChairFront.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Game Items\Desk.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Game Items\DeskChairOtherSide.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Game Items\DeskChairSide.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Game Items\PlantBlueBase.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Game Items\Table.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Game Items\TestTubeBottle.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Game Items\Wardrope.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Levels\L1.xml
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Levels\L2.xml
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\load.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\NPC\PatientZelda\Front.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\NPC\PatientZelda\Left.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\NPC\PatientZelda\Right.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\NPC\OldMan\Front.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Player Images\JBW.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Player Images\JBWTick.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Player Images\JFW.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Player Images\JLW.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\Player Images\JRW.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\resume.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\save.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\square2.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\start.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\HudText.xnb
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\Content\NPC\OldMan\Back.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\GMTB.exe
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\GMTB.pdb
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\MonoGame.Framework.dll
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.MediaFoundation.dll
@@ -344,3 +282,6 @@ E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.XInput.
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.RawInput.xml
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.Direct3D9.xml
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\obj\x86\Debug\GMTB.csprojResolveAssemblyReference.cache
+E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\GMTB.dll.config
+E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\GMTB.dll
+E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\GMTB\obj\x86\Debug\GMTB.dll

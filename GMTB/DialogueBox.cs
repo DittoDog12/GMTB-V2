@@ -25,7 +25,7 @@ namespace GMTB
             Content = Global.Content;
             mFont = Content.Load<SpriteFont>("HudText");
             mPosition.X = 50;
-            mPosition.Y = Kernel.ScreenHeight - 50;
+            mPosition.Y = Global.ScreenHeight - 50;
         }
         #endregion
 

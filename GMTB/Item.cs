@@ -5,7 +5,7 @@ namespace GMTB
     /// <summary>
     /// Collectable item
     /// </summary>
-    class Item : Entity, Collidable, hasProximity, IItem
+    public class Item : Entity, Collidable, hasProximity, IItem
     {
         #region Data Members
         private bool mCollected = false;

@@ -5,7 +5,7 @@ namespace GMTB.AI
     /// <summary>
     /// low Difficulty AI, inherits basic Behaviour from Hostile AI but alters timings
     /// </summary>   
-    class LowLevelAI : HostileAI
+    public class LowLevelAI : HostileAI
     {
         #region Constructor
         public LowLevelAI()
@@ -31,6 +31,7 @@ namespace GMTB.AI
 
         public override void Update(GameTime gameTime)
         {
+            base.Update(gameTime);
             timer += (float)gameTime.ElapsedGameTime.TotalMilliseconds;
             if (timer > interval)
             {               
@@ -59,8 +60,8 @@ namespace GMTB.AI
                         break;
                 }
                 timer = 0f;
-                mDirection = "stop";
-                base.Update(gameTime);
+                mDirection = "stop";             
+                FrameReset();
             }
 
         }

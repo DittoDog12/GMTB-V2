@@ -5,7 +5,7 @@ namespace GMTB
 {
     #region Collision Event
     /// <summary>
-    /// Collision Event MiniClass
+    /// Collision Event Minipublic class
     /// </summary>
     public class CollisionEvent : EventArgs
     {

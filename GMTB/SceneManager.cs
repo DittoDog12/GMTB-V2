@@ -65,7 +65,7 @@ namespace GMTB
         #endregion
 
         #region Methods
-        internal void InitiateLoad()
+        public void InitiateLoad()
         {
             device = null;
             StorageDevice.BeginShowSelector(this.Load, null);
@@ -95,13 +95,13 @@ namespace GMTB
                 SceneManager.getInstance.newEntity(createdEntity, (int)save.PlayerPos.X, (int)save.PlayerPos.Y);
                 LevelManager.getInstance.NewLevel(save.level);
 
-                Kernel._gameState = Kernel.GameStates.Loading;
+                Global.GameState = Global.availGameStates.Loading;
             }
 
 
         }
 
-        internal bool InitiateSave()
+        public bool InitiateSave()
         {
             device = null;
             IAsyncResult r = StorageDevice.BeginShowSelector(Save, null);
@@ -159,12 +159,12 @@ namespace GMTB
         }
         public void Update(GameTime gameTime)
         {
-            if (Kernel._gameState == Kernel.GameStates.Playing)
+            if (Global.GameState == Global.availGameStates.Playing)
                 mEntities.ForEach(IEntity => IEntity.Update(gameTime));
-            if (Kernel._gameState == Kernel.GameStates.Paused)
-                Kernel.menu2.Update(gameTime);
-            if (Kernel._gameState == Kernel.GameStates.GameOver)
-                Kernel.GameOverScreen.Update(gameTime);
+            if (Global.GameState == Global.availGameStates.Paused)
+                MenuManager.getInstance.PauseMenu().Update(gameTime);
+            if (Global.GameState == Global.availGameStates.GameOver)
+                MenuManager.getInstance.GameOverMenu().Update(gameTime);
 
         }
         public void Draw(SpriteBatch spriteBatch)
@@ -173,7 +173,7 @@ namespace GMTB
             RoomManager.getInstance.Draw(spriteBatch);
 
             // Only run draw if not in Game Over state
-            if (Kernel._gameState != Kernel.GameStates.GameOver)
+            if (Global.GameState != Global.availGameStates.GameOver)
             {
                 // Update Texture path for animating entity
                 mEntities.ForEach(IEntity => IEntity.aTexture = Content.Load<Texture2D>(IEntity.aTexturename));
@@ -182,15 +182,15 @@ namespace GMTB
                     if (mEntities[i].Visible)
                         mEntities[i].Draw(spriteBatch);
                 // Run Dialogue display if game in Dialogue State
-                if (Kernel._gameState == Kernel.GameStates.Dialogue)
+                if (Global.GameState == Global.availGameStates.Dialogue)
                     DialogueBox.getInstance.Draw(spriteBatch);
-                if (Kernel._gameState == Kernel.GameStates.Paused)
-                    if (Kernel.menu2 != null)
-                        Kernel.menu2.Draw(spriteBatch);
+                if (Global.GameState == Global.availGameStates.Paused)
+                    if (MenuManager.getInstance.PauseMenu() != null)
+                        MenuManager.getInstance.PauseMenu().Draw(spriteBatch);
 
             }
-            else if (Kernel.GameOverScreen != null && Kernel._gameState == Kernel.GameStates.GameOver)
-                Kernel.GameOverScreen.Draw(spriteBatch);
+            else if (MenuManager.getInstance.GameOverMenu() != null && Global.GameState == Global.availGameStates.GameOver)
+                MenuManager.getInstance.GameOverMenu().Draw(spriteBatch);
 
             spriteBatch.End();
         }

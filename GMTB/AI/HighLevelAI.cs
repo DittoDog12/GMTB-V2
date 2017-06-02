@@ -20,7 +20,7 @@ namespace GMTB.AI
             ChaseTime = 2000f;
             SearchTime = 2000f;
             mCollidable = true;
-            mSpeed = 3f;
+            mSpeed = 0.6f;
             interval = 100f;
             WaitTimer = 2000f;
            // Reset();
@@ -36,7 +36,8 @@ namespace GMTB.AI
         }
 
         public override void Update(GameTime gameTime)
-        {   
+        {
+            base.Update(gameTime);
             switch (mState)
             {
                 case "Wait":
@@ -73,8 +74,8 @@ namespace GMTB.AI
                         break;
                 }
                 timer = 0f;
-                mDirection = "stop";
-                base.Update(gameTime);
+                mDirection = "stop";                
+                FrameReset();
             }
            
         }

@@ -30,7 +30,7 @@ namespace GMTB
         public void Update(GameTime gameTime)
         {
             SceneManager.getInstance.Update(gameTime);
-            if (Kernel._gameState == Kernel.GameStates.Playing || Kernel._gameState == Kernel.GameStates.Dialogue)
+            if (Global.GameState == Global.availGameStates.Playing || Global.GameState == Global.availGameStates.Dialogue)
             {      
                 Script.getInstance.Update(gameTime);
                 AiManager.getInstance.Update();

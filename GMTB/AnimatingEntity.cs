@@ -46,10 +46,14 @@ namespace GMTB
         #region Methods
         public override void Update(GameTime gameTime)
         {
-            base.Update(gameTime);
+            base.Update(gameTime);             
+        }
+
+        public virtual void FrameReset()
+        {
             // Used to reset the animation when it reaches the end of the spritesheet
             if (CurrentFrame == Frames)
-                CurrentFrame = 0;    
+                CurrentFrame = 0;
         }
         public override void Draw(SpriteBatch spriteBatch)
         {

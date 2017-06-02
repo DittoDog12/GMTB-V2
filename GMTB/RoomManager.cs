@@ -6,7 +6,7 @@ namespace GMTB
     /// <summary>
     /// Controls background drawing
     /// </summary>
-    class RoomManager
+    public class RoomManager
     {
         #region Data Members
         private static RoomManager Instance = null;

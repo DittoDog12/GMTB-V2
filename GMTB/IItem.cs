@@ -9,7 +9,7 @@ namespace GMTB
     /// <summary>
     /// Collectable Item specific interface
     /// </summary>
-    interface IItem
+    public interface IItem
     {
         bool Collected { get; }
     }

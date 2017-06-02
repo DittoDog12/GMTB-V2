@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using GMTB;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
@@ -21,8 +22,6 @@ namespace GMTB
         private Texture2D loadButton;
         private Vector2 loadPosition;
 
-        private string Background;
-
         MouseState mouseState;
 
         MouseState previousMouseState;
@@ -31,11 +30,10 @@ namespace GMTB
         #endregion
 
         #region Constructor
-        public MainMenu()
+        public MainMenu(string bg)
         {
-            Background = "Backgrounds/HomeScreenBackground";
             Content = Global.Content;
-            RoomManager.getInstance.Room = Background;
+            RoomManager.getInstance.Room = bg;
         }
         #endregion
 
@@ -43,21 +41,21 @@ namespace GMTB
         public void Initialize(SpriteBatch spriteBatch)
         {
             // create Start button, position a quarter the distance across the screen from the left, near the bottom
-            startPosition = new Vector2(Kernel.ScreenWidth /4, Kernel.ScreenHeight - 75);
+            startPosition = new Vector2(Global.ScreenWidth /4, Global.ScreenHeight - 75);
             startButton = Content.Load<Texture2D>("start");
 
             // create Exit button, position a quarter the distance across the screen from the right, near the bottom
-            exitPosition = new Vector2(Kernel.ScreenWidth - (Kernel.ScreenWidth / 4), Kernel.ScreenHeight - 75);
+            exitPosition = new Vector2(Global.ScreenWidth - (Global.ScreenWidth / 4), Global.ScreenHeight - 75);
             exitButton = Content.Load<Texture2D>("Exit");
 
             // create load button, position it center, offset by texture width
             loadButton = Content.Load<Texture2D>("load");
-            loadPosition = new Vector2(Kernel.ScreenWidth - ((Kernel.ScreenWidth / 2) - (loadButton.Width / 2)), Kernel.ScreenHeight - 50);
+            loadPosition = new Vector2(Global.ScreenWidth - ((Global.ScreenWidth / 2) - (loadButton.Width / 2)), Global.ScreenHeight - 50);
         }
         public void LoadGame()
         {
             createdEntity = EntityManager.getInstance.newEntity<Player>(PlayerIndex.One);
-            SceneManager.getInstance.newEntity(createdEntity, 160, Kernel.ScreenHeight / 2);
+            SceneManager.getInstance.newEntity(createdEntity, 160, Global.ScreenHeight / 2);
             LevelManager.getInstance.NewLevel("L1");
             //Kernel._gameState = Kernel.GameStates.Playing;
         }
@@ -89,11 +87,11 @@ namespace GMTB
 
             if (mouseClickedRect.Intersects(startRect))
             {
-                Kernel._gameState = Kernel.GameStates.Loading;
+                Global.GameState = Global.availGameStates.Loading;
                 LoadGame();
             }
             else if (mouseClickedRect.Intersects(exitRect))
-                Kernel._gameState = Kernel.GameStates.Exiting;
+                Global.GameState = Global.availGameStates.Exiting;
             else if (mouseClickedRect.Intersects(loadRect))
                 SceneManager.getInstance.InitiateLoad();
         }

@@ -3,7 +3,7 @@
     /// <summary>
     /// Object that stays in one place with a collidor
     /// </summary>
-    class SolidObject : Entity, Collidable
+    public class SolidObject : Entity, Collidable
     {
         #region Constructor
         public SolidObject()

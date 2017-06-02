@@ -56,7 +56,7 @@ namespace GMTB.AI
         public override void Update(GameTime gameTime)
         {
             base.Update(gameTime);
-            if (SecondEncounter == true && Kernel._gameState == Kernel.GameStates.Playing)
+            if (SecondEncounter == true && Global.GameState == Global.availGameStates.Playing)
             {
                 mTexturename = mTexturePath + "Back";
                 if (firstDialogue == false)

@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework.Input;
 namespace GMTB
 {
     /// <summary>
-    /// Main Player class, contains all input interpretation for movement
+    /// Main Player public class, contains all input interpretation for movement
     /// </summary>
     public class Player : AnimatingEntity, IPlayer
     {
@@ -42,12 +42,13 @@ namespace GMTB
         }
         public override void Update(GameTime gameTime)
         {
+            base.Update(gameTime);
             Global.PlayerPos = mPosition;            
             // Movement controlled by timer
             timer += (float)gameTime.ElapsedGameTime.TotalMilliseconds;
             if (timer > interval)
             {
-
+                
                 mPosition += mVelocity;
                 switch (mDirection)
                 {
@@ -76,8 +77,8 @@ namespace GMTB
                 timer = 0f;
                 mVelocity.X = 0;
                 mVelocity.Y = 0;
-                mDirection = "stop";
-                base.Update(gameTime);
+                mDirection = "stop";               
+                FrameReset();
             }      
         }
         public void OnNewInput(object source, InputEvent args)

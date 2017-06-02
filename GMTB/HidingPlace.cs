@@ -7,7 +7,7 @@ namespace GMTB
     /// <summary>
     /// Object the player can hide in, will stop the AI from tracking the player
     /// </summary>
-    class HidingPlace : Entity, Collidable, hasProximity
+    public class HidingPlace : Entity, Collidable, hasProximity
     {
         #region Data Members
         private bool Hide;

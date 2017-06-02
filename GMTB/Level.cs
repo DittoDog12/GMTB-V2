@@ -11,8 +11,8 @@ namespace GMTB
         protected string lvlID;
         protected string bg;
         protected IEntity createdEntity;
-        protected int ScreenWidth = Kernel.ScreenWidth;
-        protected int ScreenHeight = Kernel.ScreenHeight;
+        protected int ScreenWidth = Global.ScreenWidth;
+        protected int ScreenHeight = Global.ScreenHeight;
         protected List<IEntity> Removables;
         protected List<IWall> Walls;
         protected bool firstRun = true;

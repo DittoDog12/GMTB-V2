@@ -42,7 +42,7 @@ namespace GMTB
             //RoomManager.getInstance.Room = Background;
             mFont = Content.Load<SpriteFont>("HudText");
             TextPosition.X = 50;
-            TextPosition.Y = Kernel.ScreenHeight - 50;
+            TextPosition.Y = Global.ScreenHeight - 50;
             TextDisplay = "Saved";
         }
         #endregion
@@ -51,16 +51,16 @@ namespace GMTB
         public void Initialize(SpriteBatch spriteBatch)
         {
             // create Start button, position a quarter the distance across the screen from the left, near the bottom
-            resumePosition = new Vector2(Kernel.ScreenWidth / 4, Kernel.ScreenHeight - 75);
+            resumePosition = new Vector2(Global.ScreenWidth / 4, Global.ScreenHeight - 75);
             resumeButton = Content.Load<Texture2D>("resume");
 
             // create Exit button, position a quarter the distance across the screen from the right, near the bottom
-            exitPosition = new Vector2(Kernel.ScreenWidth - (Kernel.ScreenWidth / 4), Kernel.ScreenHeight - 75);
+            exitPosition = new Vector2(Global.ScreenWidth - (Global.ScreenWidth / 4), Global.ScreenHeight - 75);
             exitButton = Content.Load<Texture2D>("Exit");
 
             // create save button, position it center, offset by texture width
             saveButton = Content.Load<Texture2D>("save");
-            savePosition = new Vector2(Kernel.ScreenWidth - ((Kernel.ScreenWidth / 2) - (saveButton.Width / 2)), Kernel.ScreenHeight - 50);
+            savePosition = new Vector2(Global.ScreenWidth - ((Global.ScreenWidth / 2) - (saveButton.Width / 2)), Global.ScreenHeight - 50);
 
         }
 
@@ -94,11 +94,11 @@ namespace GMTB
 
             if (mouseClickedRect.Intersects(resumeRect))
             {
-                Kernel._gameState = Kernel.GameStates.Loading;
+                Global.GameState = Global.availGameStates.Loading;
                 saved = false;
             }
             else if (mouseClickedRect.Intersects(exitRect))
-                Kernel._gameState = Kernel.GameStates.Exiting;
+                Global.GameState = Global.availGameStates.Exiting;
             else if (mouseClickedRect.Intersects(saveRect))
                 saved = SceneManager.getInstance.InitiateSave();
         }
@@ -114,7 +114,7 @@ namespace GMTB
         }
         public void onEsc(object source, EventArgs args)
         {
-            Kernel._gameState = Kernel.GameStates.Loading;
+            Global.GameState = Global.availGameStates.Loading;
             saved = false;
         }
         #endregion

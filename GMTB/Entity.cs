@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework.Graphics;
 namespace GMTB
 {
     /// <summary>
-    /// Main Entity class, everything that has a physical presence in the world inherits from this class 
+    /// Main Entity public class, everything that has a physical presence in the world inherits from this public class 
     /// </summary>
     public abstract class Entity : IEntity
     {
