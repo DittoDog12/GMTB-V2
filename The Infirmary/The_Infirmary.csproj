@@ -75,7 +75,7 @@
     <Content Include="Content\Backgrounds\HallandEnterenceBackground.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\Backgrounds\HomeScreenBackground.jpg">
+    <Content Include="Content\Backgrounds\MainMenu.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Backgrounds\MatronsOfficeBackground.png">

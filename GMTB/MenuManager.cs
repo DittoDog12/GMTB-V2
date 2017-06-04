@@ -34,10 +34,10 @@ namespace GMTB
         #endregion
 
         #region Methods
-        public MainMenu MainMenu(string bg)
+        public MainMenu MainMenu()
         {
             if (mMenu == null)
-                mMenu = new MainMenu(bg);
+                mMenu = new MainMenu();
 
             return mMenu;
         }

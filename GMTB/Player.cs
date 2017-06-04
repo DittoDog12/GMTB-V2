@@ -10,6 +10,7 @@ namespace GMTB
     {
         #region Data Members
         private PlayerIndex mPlayerNum;
+        private IInventory mInventory;
         #endregion
 
         #region Accessors
@@ -17,6 +18,10 @@ namespace GMTB
         {
             get { return mPosition; }
             set { mPosition = value; }
+        }
+        public IInventory Inventory
+        {
+            get { return mInventory; }
         }
         #endregion
 
@@ -29,6 +34,7 @@ namespace GMTB
             // Set movement update interval, sets the walk speed
             interval = 80f;
             Global.Player = this;
+            mInventory = new Inventory();
         }
         #endregion
 

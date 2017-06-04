@@ -79,8 +79,7 @@ namespace GMTB
             SceneManager.getInstance.SceneGraph.Clear();
 
             // Reset Levels
-            LevelManager.getInstance.AllLvls.Clear();
-            LevelManager.getInstance.CurrentLevel = null;
+            LevelManager.getInstance.NewGameReset();
 
             // Clear AI's
             AiManager.getInstance.AIs.Clear();
@@ -94,7 +93,7 @@ namespace GMTB
 
             // Initiate loading of new game
             Global.GameState = Global.availGameStates.Loading;
-            MenuManager.getInstance.MainMenu("Backgrounds/HomeScreenBackground").LoadGame();
+            MenuManager.getInstance.MainMenu().LoadGame();
         }
         #endregion
     }

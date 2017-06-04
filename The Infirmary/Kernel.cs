@@ -11,18 +11,6 @@ namespace The_Infirmary
     /// </summary>
     public class Kernel : Game
     {
-        //public enum Global.availGameStatess
-        //{
-        //    menu,
-        //    playing,
-        //    gameover,
-        //    dialogue,
-        //    loading,
-        //    exiting,
-        //    paused
-        //}
-        //public static Global.availGameStates Global.GameState;
-
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
@@ -30,9 +18,7 @@ namespace The_Infirmary
         public static int ScreenHeight;
 
         private int TotalLevels = 6;
-
-        // Create empty IEntity object to hold entities during creation
-        //private IEntity createdEntity;
+        private string LevelPath = "The_Infirmary.Levels.L";
 
         public Kernel()
         {
@@ -56,6 +42,7 @@ namespace The_Infirmary
             Global.ScreenHeight = ScreenHeight;
             Global.ScreenWidth = ScreenWidth;
 
+
             Global.GameState = Global.availGameStates.Menu;
             IsMouseVisible = true;
             // Initialize Entity and Scene Managers          
@@ -72,17 +59,17 @@ namespace The_Infirmary
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here           
-            MenuManager.getInstance.MainMenu("Backgrounds/HomeScreenBackground").Initialize(spriteBatch);
+            MenuManager.getInstance.MainMenu().Initialize(spriteBatch);
 
             // Load all levels into list, pass list to Level Manager
-            List<Level> Levels = new List<Level>();
+            List<ILevel> Levels = new List<ILevel>();
 
             for (int i = 0; i < TotalLevels; i++)
             {
                 int lvlid = i + 1;
-                string LeveltoOpen = "The_Infirmary.Levels.L" + lvlid;
+                string LeveltoOpen = LevelPath + lvlid;
                 Type t = Type.GetType(LeveltoOpen,true);           
-                Level lvl = Activator.CreateInstance(t) as Level;
+                ILevel lvl = Activator.CreateInstance(t) as ILevel;
                 Levels.Add(lvl);
             }
 
@@ -120,7 +107,7 @@ namespace The_Infirmary
             // TODO: Add your update logic here
 
             if (Global.GameState == Global.availGameStates.Menu)
-                MenuManager.getInstance.MainMenu("Backgrounds/HomeScreenBackground").Update(gameTime);
+                MenuManager.getInstance.MainMenu().Update(gameTime);
 
             else if (Global.GameState == Global.availGameStates.Loading)
             {
@@ -160,7 +147,7 @@ namespace The_Infirmary
 
             // TODO: Add your drawing code here
             if (Global.GameState == Global.availGameStates.Menu)
-                MenuManager.getInstance.MainMenu("Backgrounds/HomeScreenBackground").Draw(spriteBatch);
+                MenuManager.getInstance.MainMenu().Draw(spriteBatch);
             else
                 CoreManager.getInstance.Draw(spriteBatch);
             base.Draw(gameTime);

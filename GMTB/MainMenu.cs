@@ -30,10 +30,10 @@ namespace GMTB
         #endregion
 
         #region Constructor
-        public MainMenu(string bg)
+        public MainMenu()
         {
             Content = Global.Content;
-            RoomManager.getInstance.Room = bg;
+            RoomManager.getInstance.Room = "Backgrounds/MainMenu";
         }
         #endregion
 

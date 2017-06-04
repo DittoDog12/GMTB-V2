@@ -5,7 +5,7 @@ namespace GMTB
     /// <summary>
     /// Main level class, all level descriptors inherit from this
     /// </summary>
-    public abstract class Level
+    public abstract class Level : ILevel
     {
         #region Data Members
         protected string lvlID;
@@ -18,6 +18,7 @@ namespace GMTB
         protected bool firstRun = true;
         protected IWall wall;
         #endregion
+
         #region Accessors
         public string Background
         {
@@ -27,7 +28,12 @@ namespace GMTB
         {
             get { return lvlID; }
         }
+        public bool FirstRun
+        {
+            set { firstRun = value; }
+        }
         #endregion
+
         #region Constructor
         public Level()
         {
@@ -36,6 +42,7 @@ namespace GMTB
             lvlID = GetType().Name.ToString();
         }
         #endregion
+
         #region Methods
         public abstract void Initialise();
         public virtual List<IEntity> Exit()

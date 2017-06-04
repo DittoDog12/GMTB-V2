@@ -185,6 +185,7 @@ namespace GMTB.AI
         }
         public override void sub()
         {
+            mWalkDir = -1;
             CollisionManager.getInstance.Subscribe(Collision, this);
             ProximityManager.getInstance.Subscribe(inProximity, this);
         }

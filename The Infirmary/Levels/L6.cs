@@ -9,6 +9,7 @@ namespace The_Infirmary.Levels
     {
         private int[] BedPositions;
         private int ItemUID;
+        private List<IItem> Items;
         #region Constructor
         public L6() : base()
         {
@@ -19,6 +20,7 @@ namespace The_Infirmary.Levels
             BedPositions[2] = 300;
             BedPositions[3] = 390;
 
+            Items = new List<IItem>();
         }
         #endregion
 
@@ -52,6 +54,9 @@ namespace The_Infirmary.Levels
                 createdEntity = EntityManager.getInstance.newEntity<Item>("Game Items/TestTubeBottle");
                 SceneManager.getInstance.newEntity(createdEntity, 200, 380);
                 ItemUID = createdEntity.UID;
+                IItem instance = createdEntity as IItem;
+                instance.setVars("tube");
+                Items.Add(instance);
                 Removables.Add(createdEntity);
 
                 //// Walls
@@ -106,6 +111,11 @@ namespace The_Infirmary.Levels
         }
         public override List<IEntity> Exit()
         {
+            // Ensure collected Items are not cleared off the screen
+            foreach (IItem i in Items)
+                if (i.Collected == true)
+                    Removables.Remove(i as IEntity);
+
             return Removables;
         }
         #endregion

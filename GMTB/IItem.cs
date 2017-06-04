@@ -12,5 +12,7 @@ namespace GMTB
     public interface IItem
     {
         bool Collected { get; }
+        string ItemID { get; }
+        void setVars(string name);
     }
 }

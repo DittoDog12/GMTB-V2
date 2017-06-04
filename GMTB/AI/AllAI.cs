@@ -13,7 +13,7 @@ namespace GMTB.AI
         protected string mState;
         protected string mTexturePath;
         protected bool mScare;
-        protected int mWalkDir = -1;
+        protected int mWalkDir;
         protected bool mPatrolVert;
         #endregion
 

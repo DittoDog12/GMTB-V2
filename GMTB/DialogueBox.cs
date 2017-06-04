@@ -27,9 +27,6 @@ namespace GMTB
             mPosition.X = 50;
             mPosition.Y = Global.ScreenHeight - 50;
         }
-        #endregion
-
-        #region Singleton Instantisiator
         public static DialogueBox getInstance
         {
             get 

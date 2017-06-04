@@ -65,6 +65,7 @@ namespace GMTB
         #endregion
 
         #region Methods
+        #region Save/Load
         public void InitiateLoad()
         {
             device = null;
@@ -143,7 +144,8 @@ namespace GMTB
                 result.AsyncWaitHandle.Close();
             }
         }
-
+        #endregion
+        #region Entity Management
         public void newEntity(IEntity createdEntity, int x, int y)
         {
             // Add the new entity to the SceneManagers entity list
@@ -194,6 +196,7 @@ namespace GMTB
 
             spriteBatch.End();
         }
+        #endregion
         #endregion
     }
 }

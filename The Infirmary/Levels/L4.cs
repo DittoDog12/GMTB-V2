@@ -13,6 +13,7 @@ namespace The_Infirmary.Levels
             bg = "Backgrounds\\HallandEnterenceBackground";
         }
         #endregion
+
         #region Methods
         public override void Initialise()
         {

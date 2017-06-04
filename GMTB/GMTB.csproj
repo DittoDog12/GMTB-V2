@@ -56,7 +56,10 @@
     <Compile Include="AI\LowLevelAI.cs" />
     <Compile Include="AI\NeutralAI.cs" />
     <Compile Include="GameOver.cs" />
+    <Compile Include="IInventory.cs" />
     <Compile Include="IItem.cs" />
+    <Compile Include="ILevel.cs" />
+    <Compile Include="Inventory.cs" />
     <Compile Include="InvisibleWall.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="IWall.cs" />

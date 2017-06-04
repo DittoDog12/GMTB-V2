@@ -42,6 +42,7 @@ namespace GMTB
             {
                 if (Instance == null)
                     Instance = new EntityManager();
+
                 return Instance;
             }
         }

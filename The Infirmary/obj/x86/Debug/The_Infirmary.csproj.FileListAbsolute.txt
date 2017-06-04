@@ -2,7 +2,6 @@ E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Co
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\GameOver.png
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\Hall1Background.png
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\HallandEnterenceBackground.png
-E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\HomeScreenBackground.jpg
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\MatronsOfficeBackground.png
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\SecondWardBackground.png
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\SpawnRoomBackground.png
@@ -84,3 +83,4 @@ E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\obj\x86\Debug\The Infirm
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\obj\x86\Debug\The Infirmary.pdb
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Levels\L1.xml
 E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Levels\L2.xml
+E:\Dropbox\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\MainMenu.png

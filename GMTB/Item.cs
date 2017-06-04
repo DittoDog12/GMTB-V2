@@ -10,6 +10,7 @@ namespace GMTB
         #region Data Members
         private bool mCollected = false;
         private bool use = false;
+        private string mItemName;
 
         public virtual Rectangle ProximityBox
         {
@@ -26,6 +27,11 @@ namespace GMTB
         {
             get { return mCollected; }
         }
+
+        public string ItemID
+        {
+            get { return mItemName; }
+        }
         #endregion
 
         #region Constructor
@@ -36,15 +42,17 @@ namespace GMTB
         #endregion
 
         #region Methods
+        public void setVars(string name)
+        {
+            mItemName = name;
+        }
         public void inProximity(object source, ProximityEvent args)
         {
             if (args.Entity == this)
             {
                 if (use == true)
                 {
-                    mCollected = true;
-                    Destroy();
-                    use = false;
+                    Pickup();
                 }
             }
 
@@ -71,6 +79,16 @@ namespace GMTB
                 CollisionManager.getInstance.Subscribe(Collision, this);
                 ProximityManager.getInstance.Subscribe(inProximity, this);
             }  
+        }
+
+        public void Pickup()
+        {
+            mPosition = Global.Player.Inventory.Add(this);
+            mCollected = true;
+            Input.getInstance.UnSubscribeUse(OnUse);
+            CollisionManager.getInstance.unSubscribe(Collision, this);
+            ProximityManager.getInstance.unSubscribe(inProximity, this);
+            use = false;
         }
         #endregion
     }

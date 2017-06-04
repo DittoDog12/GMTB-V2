@@ -9,24 +9,17 @@ namespace GMTB
     {
         #region Data Members
         private static LevelManager Instance = null;
-        private Level currLevel;
+        private ILevel currLevel;
         private List<IEntity> Removables;
-        private List<Level> AllLoadedLevels;
-        private List<Level> AllLevels;
+        private List<ILevel> AllLoadedLevels;
+        private List<ILevel> AllLevels;
         private bool firstRun = true;
         #endregion
 
         #region Accessors
-        public Level CurrentLevel
+        public ILevel CurrentLevel
         {
             get { return currLevel; }
-            set { currLevel = value; }
-        }
-
-        public List<Level> AllLvls
-        {
-            get { return AllLoadedLevels; }
-            set { AllLoadedLevels = value; }
         }
         #endregion
 
@@ -34,7 +27,7 @@ namespace GMTB
         private LevelManager()
         {
             Removables = new List<IEntity>();
-            AllLoadedLevels = new List<Level>();
+            AllLoadedLevels = new List<ILevel>();
         }
         public static LevelManager getInstance
         {
@@ -48,10 +41,10 @@ namespace GMTB
         #endregion
 
         #region Methods
-        public void InitialiseAllLevels(List<Level> Levels)
+        public void InitialiseAllLevels(List<ILevel> Levels)
         {
-            AllLevels = new List<Level>();
-            foreach (Level l in Levels)
+            AllLevels = new List<ILevel>();
+            foreach (ILevel l in Levels)
                 AllLevels.Add(l);
         }
 
@@ -67,7 +60,7 @@ namespace GMTB
             }
             if (firstRun == true)
             {
-                foreach (Level l in AllLevels)
+                foreach (ILevel l in AllLevels)
                     if (l.LvlID == LevelID)
                         currLevel = l;
 
@@ -89,7 +82,7 @@ namespace GMTB
 
                 if (newLevel == true)
                 {
-                    foreach (Level l in AllLevels)
+                    foreach (ILevel l in AllLevels)
                         if (l.LvlID == LevelID)
                             currLevel = l;
 
@@ -104,6 +97,15 @@ namespace GMTB
         private void LoadBackground(string LevelBG)
         {
             RoomManager.getInstance.Room = LevelBG;
+        }
+
+        public void NewGameReset()
+        {
+            foreach (ILevel l in AllLevels)
+                l.FirstRun = true;
+            AllLoadedLevels.Clear();
+            firstRun = true;
+            currLevel = null;
         }
         #endregion
     }

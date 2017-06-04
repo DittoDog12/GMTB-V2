@@ -11,9 +11,9 @@ namespace GMTB.AI
         {
             mUName = "JumpScare";
             mSpeed = 0.75f;
-            interval = 100f;
+            interval = 80f;
             mState = "Follow";
-
+            ChaseTime = 1000f;
             mScare = true;
         }
         public override void setVars(int uid, string path)
@@ -28,11 +28,14 @@ namespace GMTB.AI
             if (mScare == true)
             {
                 base.Update(gameTime);
-                mDistanceToDest = mPlayerPos - mPosition;
-                mDistanceToDest.Normalize();
+                ActivityTimer = 0f;
 
-                mVelocity = mDistanceToDest * mSpeed;
-                CurrentFrame++;               
+                timer += (float)gameTime.ElapsedGameTime.TotalMilliseconds;
+                if (timer > interval)
+                {
+                    CurrentFrame++;
+                    timer = 0f;
+                }                            
                 FrameReset();
             }
             else

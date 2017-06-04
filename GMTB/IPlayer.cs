@@ -10,6 +10,7 @@ namespace GMTB
         Rectangle HitBox { get; }
         Vector2 Position { get; set; }
         bool Visible { get; set; }
+        IInventory Inventory { get; }
         void Collision(object source, CollisionEvent args);
         void CollisionHide();
         void setPos(Vector2 pos);
