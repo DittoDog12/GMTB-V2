@@ -1,5 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using System.Collections.Generic;
 
 namespace GMTB
 {
@@ -10,10 +11,15 @@ namespace GMTB
     {
         #region DataMembers
         private static CoreManager Instance = null;
+
+        private List<AManager> AdditionalManagers;
         #endregion
 
         #region Constructor
-        private CoreManager() { }
+        private CoreManager()
+        {
+            AdditionalManagers = new List<AManager>();
+        }
         public static CoreManager getInstance
         {
             get
@@ -27,6 +33,14 @@ namespace GMTB
         #endregion
 
         #region Methods
+        public void AddAdditionalManagers(AManager m)
+        {
+            // Any additional Managers can inherit from the abstract AManager class, 
+            // and then use this method to reveal themselves to the core manager.
+            // Remember they do not need to use the getInstance in the update loop below.
+            AdditionalManagers.Add(m);
+        }
+
         public void Update(GameTime gameTime)
         {
             SceneManager.getInstance.Update(gameTime);
@@ -36,6 +50,8 @@ namespace GMTB
                 AiManager.getInstance.Update();
                 ProximityManager.getInstance.Update();
                 CollisionManager.getInstance.Update();
+                foreach (AManager m in AdditionalManagers)
+                    m.Update(gameTime);
             }
             Input.getInstance.Update();
         }
@@ -43,7 +59,11 @@ namespace GMTB
         {
             SceneManager.getInstance.Draw(spriteBatch);
         }
-
+        // To relay following camera to SM
+        public void Draw(SpriteBatch spriteBatch, Camera2D cam, GraphicsDevice graDev)
+        {
+            SceneManager.getInstance.Draw(spriteBatch, cam, graDev);
+        }
         #endregion
 
     }

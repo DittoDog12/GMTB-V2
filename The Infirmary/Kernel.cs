@@ -20,6 +20,8 @@ namespace The_Infirmary
         private int TotalLevels = 6;
         private string LevelPath = "The_Infirmary.Levels.L";
 
+        private string mSaveDataID = "The Infirmary";
+
         public Kernel()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -45,6 +47,11 @@ namespace The_Infirmary
 
             Global.GameState = Global.availGameStates.Menu;
             IsMouseVisible = true;
+
+            GameManager.getInstance.InitializeParamaters(PlayerIndex.One);
+
+            SaveLoadManager.getInstance.SaveID = mSaveDataID;
+
             // Initialize Entity and Scene Managers          
             base.Initialize();
         }
@@ -113,6 +120,8 @@ namespace The_Infirmary
             {
                 IsMouseVisible = false;
 
+                GameManager.getInstance.InitializeGame();
+
                 Global.GameState = Global.availGameStates.Playing;
                 Input.getInstance.SubscribeExit(onEsc);
 
@@ -124,6 +133,14 @@ namespace The_Infirmary
                 IsMouseVisible = true;
                 if (!MenuManager.getInstance.PauseMenu().isSubbed)
                     MenuManager.getInstance.PauseMenu().Sub();
+            }
+            else if (Global.GameState == Global.availGameStates.Resuming)
+            {
+                Global.GameState = Global.availGameStates.Playing;
+                Input.getInstance.SubscribeExit(onEsc);
+
+                if (MenuManager.getInstance.PauseMenu() != null)
+                    MenuManager.getInstance.PauseMenu().unSub();
             }
             else if (Global.GameState == Global.availGameStates.GameOver)
             {

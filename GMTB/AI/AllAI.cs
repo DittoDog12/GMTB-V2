@@ -79,6 +79,8 @@ namespace GMTB.AI
                     mPosition.Y = mPrevPos.Y + (10 * mWalkDir);
                 else
                     mPosition.X = mPrevPos.X + (10 * mWalkDir);
+
+                
             }
         }
 

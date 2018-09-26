@@ -170,6 +170,7 @@ namespace GMTB.AI
                 && (mPosition.Y >= mStartPos.Y - 5 && mPosition.Y <= mStartPos.Y + 5))
             {
                 mState = "Idle";
+                mWalkDir = 1;
                 mVelocity.X = 0;
                 mVelocity.Y = mSpeed;
                 Destroy();
@@ -185,7 +186,7 @@ namespace GMTB.AI
         }
         public override void sub()
         {
-            mWalkDir = -1;
+            mWalkDir = 1;
             CollisionManager.getInstance.Subscribe(Collision, this);
             ProximityManager.getInstance.Subscribe(inProximity, this);
         }

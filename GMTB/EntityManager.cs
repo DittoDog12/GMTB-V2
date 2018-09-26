@@ -18,6 +18,9 @@ namespace GMTB
         private List<IEntity> mEntities;
         // Create UID 
         private int UID;
+
+        // Create Deletion List
+        private List<int> mDeletions;
         #endregion
 
         #region Accessors
@@ -35,6 +38,8 @@ namespace GMTB
             mEntities = new List<IEntity>();
             // Set UID counter to 0 for first object
             UID = 1;
+            // Initialise Deletion List
+            mDeletions = new List<int>();
         }
         public static EntityManager getInstance
         {
@@ -97,6 +102,27 @@ namespace GMTB
                         //mEntities.RemoveAt(i);   
                     }
             }
+            GC.Collect();
+        }
+
+        public void queueForDeletion(int uid)
+        {
+            mDeletions.Add(uid);
+        }
+        public void removeEntities()
+        {
+            foreach (int i in mDeletions)
+            {
+                for (int e = 0; i < mEntities.Count; e++)
+                {
+                    if (mEntities[e].UID == i)
+                    {
+                        mEntities[e] = null;
+                        mEntities.RemoveAt(e);
+                    }
+                }
+            }
+            mDeletions.Clear();
             GC.Collect();
         }
         #endregion

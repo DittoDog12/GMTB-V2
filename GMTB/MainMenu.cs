@@ -1,4 +1,5 @@
 ﻿using GMTB;
+using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -12,6 +13,8 @@ namespace GMTB
     {
         #region Data Members
         Microsoft.Xna.Framework.Content.ContentManager Content;
+
+        public bool isSubbed = false;
 
         private Texture2D startButton;
         private Vector2 startPosition;
@@ -27,6 +30,15 @@ namespace GMTB
         MouseState previousMouseState;
 
         private IEntity createdEntity;
+
+        private Texture2D AButton;
+        private Vector2 APosition;
+
+        private Texture2D BButton;
+        private Vector2 BPosition;
+
+        private Texture2D XButton;
+        private Vector2 XPosition;
         #endregion
 
         #region Constructor
@@ -40,6 +52,7 @@ namespace GMTB
         #region Methods
         public void Initialize(SpriteBatch spriteBatch)
         {
+            Sub();
             // create Start button, position a quarter the distance across the screen from the left, near the bottom
             startPosition = new Vector2(Global.ScreenWidth /4, Global.ScreenHeight - 75);
             startButton = Content.Load<Texture2D>("start");
@@ -51,13 +64,17 @@ namespace GMTB
             // create load button, position it center, offset by texture width
             loadButton = Content.Load<Texture2D>("load");
             loadPosition = new Vector2(Global.ScreenWidth - ((Global.ScreenWidth / 2) - (loadButton.Width / 2)), Global.ScreenHeight - 50);
-        }
-        public void LoadGame()
-        {
-            createdEntity = EntityManager.getInstance.newEntity<Player>(PlayerIndex.One);
-            SceneManager.getInstance.newEntity(createdEntity, 160, Global.ScreenHeight / 2);
-            LevelManager.getInstance.NewLevel("L1");
-            //Kernel._gameState = Kernel.GameStates.Playing;
+
+            // Create A and B Buttons will only render if controller connected, allows for on the fly adjustment
+
+            APosition = new Vector2((Global.ScreenWidth / 4) + 30, Global.ScreenHeight - 100);
+            AButton = Content.Load<Texture2D>("A-Button");
+
+            BPosition = new Vector2(Global.ScreenWidth - (Global.ScreenWidth / 4) + 30, Global.ScreenHeight - 100);
+            BButton = Content.Load<Texture2D>("B-Button");
+
+            XPosition = new Vector2(Global.ScreenWidth - ((Global.ScreenWidth / 2) - (loadButton.Width / 2)) + 30, Global.ScreenHeight - 100);
+            XButton = Content.Load<Texture2D>("X-Button");
         }
         public void Draw(SpriteBatch spriteBatch)
         {
@@ -66,6 +83,12 @@ namespace GMTB
             spriteBatch.Draw(startButton, startPosition, Color.White);
             spriteBatch.Draw(exitButton, exitPosition, Color.White);
             spriteBatch.Draw(loadButton, loadPosition, Color.White);
+            if (Input.getInstance.CheckController())
+            {
+                spriteBatch.Draw(AButton, APosition, Color.White);
+                spriteBatch.Draw(BButton, BPosition, Color.White);
+                spriteBatch.Draw(XButton, XPosition, Color.White);
+            }
             spriteBatch.End();
         }
         public void Update(GameTime gameTime)
@@ -87,13 +110,55 @@ namespace GMTB
 
             if (mouseClickedRect.Intersects(startRect))
             {
-                Global.GameState = Global.availGameStates.Loading;
-                LoadGame();
+                Start();
+                // Depreciated, kernel now creates Player
+                //LoadGame();
+
             }
             else if (mouseClickedRect.Intersects(exitRect))
-                Global.GameState = Global.availGameStates.Exiting;
+                Exit();
             else if (mouseClickedRect.Intersects(loadRect))
-                SceneManager.getInstance.InitiateLoad();
+                Load();
+        }
+        public void Sub()
+        {
+            Input.getInstance.SubscribeExit(onEsc);
+            Input.getInstance.SubscribeGPMenu(GP);
+            isSubbed = true;
+        }
+        public void unSub()
+        {
+            Input.getInstance.unSubscribeExit(onEsc);
+            Input.getInstance.UnSubscribeGPMenu(GP);
+            isSubbed = false;
+        }
+        public void onEsc(object source, EventArgs args)
+        {
+            Exit();
+        }
+        public void GP(object source, GPEvent args)
+        {
+            if (args.currentState == "A")
+                Start();
+            if (args.currentState == "B")
+                Exit();
+            if (args.currentState == "X")
+                Load();
+        }
+        public void Start()
+        {
+            unSub();
+            Global.GameState = Global.availGameStates.Loading;
+        }
+        public void Exit()
+        {
+            unSub();
+            Global.GameState = Global.availGameStates.Exiting;
+        }
+        public void Load()
+        {
+            unSub();
+            SceneManager.getInstance.InitiateLoad();
         }
         #endregion
     }

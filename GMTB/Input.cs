@@ -17,6 +17,16 @@ namespace GMTB
             currentKey = key;
         }
     }
+
+    public class GPEvent : EventArgs
+    {
+        public string currentState;
+
+        public GPEvent(string state)
+        {
+            currentState = state;
+        }
+    }
     #endregion
 
     /// <summary>
@@ -27,10 +37,14 @@ namespace GMTB
         #region Data Members
         private static Input Instance = null;
         private KeyboardState oldState;
+        private GamePadState oldGstate;
         public event EventHandler<InputEvent> NewInput;
         public event EventHandler<InputEvent> ExitInput;
         public event EventHandler<InputEvent> SpaceInput;
         public event EventHandler<InputEvent> UseInput;
+
+        public event EventHandler<GPEvent> GPMenu;
+        private bool gpCon;
         #endregion
 
         #region Constructor
@@ -50,12 +64,17 @@ namespace GMTB
         #endregion
 
         #region Methods
-        // Input triggers
+        #region Event Triggers
         protected virtual void OnNewInput(Keys key)
         {
             InputEvent args = new InputEvent(key);
             NewInput(this, args);
         }
+        //protected virtual void HorizontalInput(Keys key)
+        //{
+        //    InputEvent args = new InputEvent(key);
+        //    NewInput(this, args);
+        //}
         protected virtual void OnSpaceInput(Keys key)
         {
             if (SpaceInput != null)
@@ -80,7 +99,16 @@ namespace GMTB
                 ExitInput(this, args);
             }
         }
-        // Sub/Unsubscribers
+        protected virtual void onGPInput(string gp)
+        {
+            if (gp != null)
+            {
+                GPEvent args = new GPEvent(gp);
+                GPMenu(this, args);
+            }
+        }
+        #endregion
+        #region Sub/Unsubscribers
         public void SubscribeMove(EventHandler<InputEvent> handler)
         {
             // Add event handler
@@ -118,8 +146,28 @@ namespace GMTB
             UseInput -= handler;
         }
 
+        public void SubscribeGPMenu(EventHandler<GPEvent> handler)
+        {
+            GPMenu += handler;
+        }
+        public void UnSubscribeGPMenu(EventHandler<GPEvent> handler)
+        {
+            GPMenu -= handler;
+        }
+        #endregion
+        public bool CheckController()
+        {
+            gpCon = false;
+            if (GamePad.GetState(PlayerIndex.One).IsConnected == true)
+                gpCon = true;
+            return gpCon;
+        }
+
         public void Update()
         {
+            if (CheckController() == true)
+                GamePadInput();
+
             KeyboardState newState = Keyboard.GetState();
             // Halt input detection if the global trigger is set, usually if Dialogue is running
             if (Global.GameState == Global.availGameStates.Playing)
@@ -128,22 +176,24 @@ namespace GMTB
 
                 if (newState.IsKeyDown(Keys.W) == true || GamePad.GetState(PlayerIndex.One).DPad.Up == ButtonState.Pressed)
                 {
-                    OnNewInput(Keys.W);
+                    OnNewInput(Keys.W); //FIX THIS ON SIDSCROLL
                 }
-                else if (newState.IsKeyDown(Keys.A) == true || GamePad.GetState(PlayerIndex.One).DPad.Left == ButtonState.Pressed)
-                {
-                    OnNewInput(Keys.A);
-                }
+                
                 else if (newState.IsKeyDown(Keys.S) == true || GamePad.GetState(PlayerIndex.One).DPad.Down == ButtonState.Pressed)
                 {
                     OnNewInput(Keys.S);
+                }
+
+                if (newState.IsKeyDown(Keys.A) == true || GamePad.GetState(PlayerIndex.One).DPad.Left == ButtonState.Pressed)
+                {
+                    OnNewInput(Keys.A);
                 }
                 else if (newState.IsKeyDown(Keys.D) == true || GamePad.GetState(PlayerIndex.One).DPad.Right == ButtonState.Pressed)
                 {
                     OnNewInput(Keys.D);
                 }
 
-                if (newState.IsKeyDown(Keys.E))
+                if (oldState.IsKeyUp(Keys.E) && newState.IsKeyDown(Keys.E))
                     OnUse(Keys.E);
             }
             if (oldState.IsKeyUp(Keys.Space) && newState.IsKeyDown(Keys.Space))
@@ -152,6 +202,62 @@ namespace GMTB
                 onEsc(Keys.Escape);
 
             oldState = newState;
+        }
+
+        private void GamePadInput()
+        {
+            GamePadState newGstate = GamePad.GetState(PlayerIndex.One);
+
+            if (Global.GameState == Global.availGameStates.Playing)
+            {
+                if (newGstate.DPad.Up == ButtonState.Pressed || newGstate.ThumbSticks.Left.Y > 0)
+                {
+                    OnNewInput(Keys.W);
+                }
+
+                else if (newGstate.DPad.Down == ButtonState.Pressed || newGstate.ThumbSticks.Left.Y < 0)
+                {
+                    OnNewInput(Keys.S);
+                }
+
+                if (newGstate.DPad.Left == ButtonState.Pressed || newGstate.ThumbSticks.Left.X < 0)
+                {
+                    OnNewInput(Keys.A);
+                }
+                else if (newGstate.DPad.Right == ButtonState.Pressed || newGstate.ThumbSticks.Left.X > 0)
+                {
+                    OnNewInput(Keys.D);
+                }
+
+                if (newGstate.Buttons.A == ButtonState.Pressed && oldGstate.Buttons.A == ButtonState.Released)
+                    OnSpaceInput(Keys.Space);
+            }
+
+            if (newGstate.Buttons.Start == ButtonState.Released && oldGstate.Buttons.Start == ButtonState.Pressed)
+                onEsc(Keys.Escape);
+
+            if (Global.GameState == Global.availGameStates.Menu || Global.GameState == Global.availGameStates.Paused 
+                || Global.GameState == Global.availGameStates.Dialogue || Global.GameState == Global.availGameStates.GameOver)
+            {
+                if (newGstate.Buttons.A == ButtonState.Released && oldGstate.Buttons.A == ButtonState.Pressed)
+                {
+                    string state = "A";
+                    onGPInput(state);
+                }
+                if (newGstate.Buttons.B == ButtonState.Released && oldGstate.Buttons.B == ButtonState.Pressed)
+                {
+                    string state = "B";
+                    onGPInput(state);
+                }
+                if (newGstate.Buttons.X == ButtonState.Released && oldGstate.Buttons.X == ButtonState.Pressed)
+                {
+                    string state = "X";
+                    onGPInput(state);
+                }
+
+            }
+
+            oldGstate = newGstate;
         }
         #endregion
     }

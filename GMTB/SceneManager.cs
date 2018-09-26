@@ -2,20 +2,12 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
-using System.IO;
-using System.Xml.Serialization;
-using Microsoft.Xna.Framework.Storage;
+
+
+
 
 namespace GMTB
 {
-    #region SaveData  
-    public struct SaveData
-    {
-        public Vector2 PlayerPos;
-        public string level;
-        public bool Visible;
-    }
-    #endregion
     public class SceneManager
     {
         /// <summary>
@@ -28,9 +20,11 @@ namespace GMTB
         private List<IEntity> mSceneGraph;
         Microsoft.Xna.Framework.Content.ContentManager Content;
 
-        StorageDevice device;
-        string containerName = "GMTBSaveData";
-        string filename = "InfirmarySave.sav";
+        //StorageDevice device;
+        //string containerName = "GMTBSaveData";
+        //string filename = "InfirmarySave.sav";
+
+
         #endregion
 
         #region Accessors
@@ -65,85 +59,115 @@ namespace GMTB
         #endregion
 
         #region Methods
+        
         #region Save/Load
+        // Old system uses StorageDevice, now missing from framework as of Monogame 3.6
+        // New system uses IsolatedStorage via SaveLoadManager
+        #region OldSystem
+        //public void InitiateLoad()
+        //{
+        //    device = null;
+        //    StorageDevice.BeginShowSelector(this.Load, null);
+        //}
+        //private void Load(IAsyncResult result)
+        //{
+        //    // Open Storage Device
+        //    device = StorageDevice.EndShowSelector(result);
+        //    // Open Storage Container
+        //    IAsyncResult r = device.BeginOpenContainer(containerName, null, null);
+        //    result.AsyncWaitHandle.WaitOne();
+        //    StorageContainer container = device.EndOpenContainer(r);
+
+        //    result.AsyncWaitHandle.Close();
+
+        //    if (container.FileExists(filename))
+        //    {
+        //        Stream stream = container.OpenFile(filename, FileMode.Open);
+        //        XmlSerializer serializer = new XmlSerializer(typeof(SaveData));
+        //        SaveData save = (SaveData)serializer.Deserialize(stream);
+        //        stream.Close();
+        //        container.Dispose();
+
+        //        // Apply save data to world
+        //        // Create Player and place at saved location
+        //        IEntity createdEntity = EntityManager.getInstance.newEntity<Player>(PlayerIndex.One);
+        //        SceneManager.getInstance.newEntity(createdEntity, (int)save.PlayerPos.X, (int)save.PlayerPos.Y);
+        //        LevelManager.getInstance.NewLevel(save.level);
+
+        //        Global.GameState = Global.availGameStates.Loading;
+        //    }
+
+
+        //}
+
+        //public bool InitiateSave()
+        //{
+        //    device = null;
+        //    IAsyncResult r = StorageDevice.BeginShowSelector(Save, null);
+        //    return r.IsCompleted;
+        //}
+
+        //private void Save(IAsyncResult result)
+        //{
+        //    // Open Storage Device
+        //    device = StorageDevice.EndShowSelector(result);
+        //    if (device != null && device.IsConnected)
+        //    {
+        //        // Create save point
+        //        SaveData save = new SaveData()
+        //        {
+        //            PlayerPos = Global.PlayerPos,
+        //            level = LevelManager.getInstance.CurrentLevel.LvlID,
+        //            Visible = Global.Player.Visible,
+        //        };
+
+        //        // Open Storage Container
+        //        IAsyncResult r = device.BeginOpenContainer(containerName, null, null);
+        //        result.AsyncWaitHandle.WaitOne();
+        //        StorageContainer container = device.EndOpenContainer(r);
+
+        //        // Delete existing save if exists
+        //        if (container.FileExists(filename))
+        //            container.DeleteFile(filename);
+
+        //        // Create XML Stream
+        //        Stream stream = container.CreateFile(filename);
+        //        // Create XML Serializer
+        //        XmlSerializer serializer = new XmlSerializer(typeof(SaveData));
+        //        // Serialize and save to file
+        //        serializer.Serialize(stream, save);
+        //        // Close all files
+        //        stream.Close();
+        //        container.Dispose();
+        //        result.AsyncWaitHandle.Close();
+        //    }
+        //}
+        #endregion
+        #region NewSystem
+        public bool InitiateSave()
+        {
+            //Create save point
+            SaveData save = new SaveData()
+            {
+                PlayerPos = Global.PlayerPos,
+                level = LevelManager.getInstance.CurrentLevel.LvlID,
+                Visible = Global.Player.Visible,
+            };
+            bool r = SaveLoadManager.getInstance.Save(save);
+            return r;
+        }
         public void InitiateLoad()
         {
-            device = null;
-            StorageDevice.BeginShowSelector(this.Load, null);
-        }
-        private void Load(IAsyncResult result)
-        {
-            // Open Storage Device
-            device = StorageDevice.EndShowSelector(result);
-            // Open Storage Container
-            IAsyncResult r = device.BeginOpenContainer(containerName, null, null);
-            result.AsyncWaitHandle.WaitOne();
-            StorageContainer container = device.EndOpenContainer(r);
-
-            result.AsyncWaitHandle.Close();
-
-            if (container.FileExists(filename))
+            SaveData save = SaveLoadManager.getInstance.Load();
+            if (!save.BLANK)
             {
-                Stream stream = container.OpenFile(filename, FileMode.Open);
-                XmlSerializer serializer = new XmlSerializer(typeof(SaveData));
-                SaveData save = (SaveData)serializer.Deserialize(stream);
-                stream.Close();
-                container.Dispose();
-
-                // Apply save data to world
-                // Create Player and place at saved location
                 IEntity createdEntity = EntityManager.getInstance.newEntity<Player>(PlayerIndex.One);
                 SceneManager.getInstance.newEntity(createdEntity, (int)save.PlayerPos.X, (int)save.PlayerPos.Y);
                 LevelManager.getInstance.NewLevel(save.level);
-
-                Global.GameState = Global.availGameStates.Loading;
-            }
-
-
+                Global.GameState = Global.availGameStates.Resuming;
+            }       
         }
-
-        public bool InitiateSave()
-        {
-            device = null;
-            IAsyncResult r = StorageDevice.BeginShowSelector(Save, null);
-            return r.IsCompleted;
-        }
-
-        private void Save(IAsyncResult result)
-        {
-            // Open Storage Device
-            device = StorageDevice.EndShowSelector(result);
-            if (device != null && device.IsConnected)
-            {
-                // Create save point
-                SaveData save = new SaveData()
-                {
-                    PlayerPos = Global.PlayerPos,
-                    level = LevelManager.getInstance.CurrentLevel.LvlID,
-                    Visible = Global.Player.Visible,
-                };
-
-                // Open Storage Container
-                IAsyncResult r = device.BeginOpenContainer(containerName, null, null);
-                result.AsyncWaitHandle.WaitOne();
-                StorageContainer container = device.EndOpenContainer(r);
-
-                // Delete existing save if exists
-                if (container.FileExists(filename))
-                    container.DeleteFile(filename);
-
-                // Create XML Stream
-                Stream stream = container.CreateFile(filename);
-                // Create XML Serializer
-                XmlSerializer serializer = new XmlSerializer(typeof(SaveData));
-                // Serialize and save to file
-                serializer.Serialize(stream, save);
-                // Close all files
-                stream.Close();
-                container.Dispose();
-                result.AsyncWaitHandle.Close();
-            }
-        }
+        #endregion
         #endregion
         #region Entity Management
         public void newEntity(IEntity createdEntity, int x, int y)
@@ -192,6 +216,36 @@ namespace GMTB
 
             }
             else if (MenuManager.getInstance.GameOverMenu() != null && Global.GameState == Global.availGameStates.GameOver)
+                MenuManager.getInstance.GameOverMenu().Draw(spriteBatch);
+
+            spriteBatch.End();
+        }
+        // For use if camera is to follow player
+        public void Draw(SpriteBatch spriteBatch, Camera2D cam, GraphicsDevice graDev)
+        {
+            spriteBatch.Begin(SpriteSortMode.FrontToBack, BlendState.AlphaBlend,
+                null, null, null, null, cam.GetTransform(graDev));
+            RoomManager.getInstance.Draw(spriteBatch);
+
+            // Only run draw if not in Game Over state
+            if (Global.GameState != Global.availGameStates.GameOver)
+            {
+                // Update Texture path for animating entity
+                mEntities.ForEach(IEntity => IEntity.aTexture = Content.Load<Texture2D>(IEntity.aTexturename));
+                // Call draw method for each Entity if entity is visible
+                for (int i = 0; i < mEntities.Count; i++)
+                    if (mEntities[i].Visible)
+                        mEntities[i].Draw(spriteBatch);
+                // Run Dialogue display if game in Dialogue State
+                if (Global.GameState == Global.availGameStates.Dialogue)
+                    DialogueBox.getInstance.Draw(spriteBatch);
+                if (Global.GameState == Global.availGameStates.Paused
+                    && MenuManager.getInstance.PauseMenu() != null)
+                    MenuManager.getInstance.PauseMenu().Draw(spriteBatch);
+
+            }
+            else if (MenuManager.getInstance.GameOverMenu() != null
+                && Global.GameState == Global.availGameStates.GameOver)
                 MenuManager.getInstance.GameOverMenu().Draw(spriteBatch);
 
             spriteBatch.End();

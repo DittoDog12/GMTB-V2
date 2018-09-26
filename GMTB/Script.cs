@@ -28,7 +28,6 @@ namespace GMTB
         private Script()
         {
             mNextLine = false; // Used for spacebar control of text if implemented
-            Lines = File.ReadAllLines(Environment.CurrentDirectory + "/Content/Dialogue/FirstEncounter.txt"); // Initial conversation loaded to list
 
             mLine = 0;
 
@@ -68,6 +67,8 @@ namespace GMTB
                     DialogueRunning = false;
                     Global.GameState = Global.availGameStates.Playing;
                     Input.getInstance.UnSubscribeSpace(this.OnSpace);
+                    if (Input.getInstance.CheckController())
+                        Input.getInstance.UnSubscribeGPMenu(this.GP);
                 }
             }
             // Display a single line of dialogue   
@@ -75,6 +76,8 @@ namespace GMTB
             {
                 timer += (float)gameTime.ElapsedGameTime.TotalMilliseconds;
                 Input.getInstance.SubscribeSpace(OnSpace);
+                if (Input.getInstance.CheckController())
+                    Input.getInstance.SubscribeGPMenu(this.GP);
                 DialogueBox.getInstance.Display(Line);
                 if (timer > interval || mNextLine == true)
                 {
@@ -101,6 +104,8 @@ namespace GMTB
             mLine = 0;
             Global.GameState = Global.availGameStates.Dialogue;
             Input.getInstance.SubscribeSpace(this.OnSpace);
+            if (Input.getInstance.CheckController())
+                Input.getInstance.SubscribeGPMenu(this.GP);
         }
 
         // Called by Collision triggers to display one line of dialogue
@@ -109,6 +114,12 @@ namespace GMTB
             Line = line;
             SingleDialogueRun = true;
             Global.GameState = Global.availGameStates.Dialogue;
+        }
+
+        public void GP(object source, GPEvent args)
+        {
+            if (args.currentState == "A")
+                mNextLine = true;
         }
         #endregion
 

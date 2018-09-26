@@ -55,6 +55,9 @@
     <Compile Include="AI\JumpScare.cs" />
     <Compile Include="AI\LowLevelAI.cs" />
     <Compile Include="AI\NeutralAI.cs" />
+    <Compile Include="AManager.cs" />
+    <Compile Include="Camera2D.cs" />
+    <Compile Include="FullArtRenderer.cs" />
     <Compile Include="GameOver.cs" />
     <Compile Include="IInventory.cs" />
     <Compile Include="IItem.cs" />
@@ -87,6 +90,7 @@
     <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RoomManager.cs" />
+    <Compile Include="SaveLoadManager.cs" />
     <Compile Include="SceneManager.cs" />
     <Compile Include="Script.cs" />
     <Compile Include="SolidObject.cs" />

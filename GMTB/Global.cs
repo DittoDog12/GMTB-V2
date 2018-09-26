@@ -18,7 +18,8 @@ namespace GMTB
             Dialogue,
             Loading,
             Exiting,
-            Paused
+            Paused,
+            Resuming
         }
 
         /// <summary>

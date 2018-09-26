@@ -17,6 +17,7 @@ namespace GMTB.AI
         private string RepeatedText;
         private string mTexturePath;
         private bool firstDialogue = false;
+        protected string mArtTexPath;
         #endregion
 
         #region Constructor
@@ -38,6 +39,11 @@ namespace GMTB.AI
             UID = uid;
             mTexturePath = path;
             mTexturename = mTexturePath + "Front"; 
+        }
+        public void setVars(int uid, string path, string artpath)
+        {
+            base.setVars(uid, path);
+            mArtTexPath = artpath;
         }
 
         public override void Collision(object source, CollisionEvent args)
