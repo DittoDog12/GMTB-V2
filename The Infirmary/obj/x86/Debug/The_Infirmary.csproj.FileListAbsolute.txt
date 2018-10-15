@@ -528,3 +528,209 @@ E:\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Player Images\JFW
 E:\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Player Images\JFW.xnb
 E:\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Player Images\JLW.xnb
 E:\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Player Images\JRW.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\A-Button.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\B-Button.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\BoardRoomBackground.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\GameOver.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\Hall1Background.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\HallandEnterenceBackground.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\MainMenu.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\MatronsOfficeBackground.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\SecondWardBackground.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\SpawnRoomBackground.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\BlueDoll.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Dialogue\A.I.AfterMartha.txt
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Dialogue\A.I.AndSerena.txt
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Dialogue\A.I.AndSerenaAfterOldMan.txt
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Dialogue\FirstEncounter.txt
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Dialogue\OldManAndSerena.txt
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\JumpScare\Front.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\Martha\Back.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\Martha\Front.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\Martha\Left.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\Martha\Right.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\NurseA\Back.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\NurseA\Front.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\NurseA\Left.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\NurseA\Right.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\NurseB\Back.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\NurseB\Front.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\NurseB\Left.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\NurseB\Right.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\exit.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\ACross.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\AdultsBedLong.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\AdultsBedSideL.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\AdultsBedSideR.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\ChairBack.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\ChairFront.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\Desk.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\DeskChairOtherSide.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\DeskChairSide.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\PlantBlueBase.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\Table.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\TestTubeBottle.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\Wardrope.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\NPC\OldMan\fullart1.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Player Images\fullart2.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\X-Button.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Levels\L1.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Levels\L2.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\load.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\NPC\OldMan\Front.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\NPC\PatientZelda\Front.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\NPC\PatientZelda\Left.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\NPC\PatientZelda\Right.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Player Images\JBW.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Player Images\JBWTick.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Player Images\JFW.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Player Images\JLW.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Player Images\JRW.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\resume.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\save.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\square2.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\start.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\A-Button.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\B-Button.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\BlueDoll.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\exit.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\HudText.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\load.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\resume.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\save.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\square2.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\start.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\X-Button.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Backgrounds\BoardRoomBackground.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Backgrounds\GameOver.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Backgrounds\Hall1Background.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Backgrounds\HallandEnterenceBackground.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Backgrounds\MainMenu.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Backgrounds\MatronsOfficeBackground.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Backgrounds\SecondWardBackground.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Backgrounds\SpawnRoomBackground.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Enemy\JumpScare\Front.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Enemy\Martha\Back.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Enemy\Martha\Front.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Enemy\Martha\Left.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Enemy\Martha\Right.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Enemy\NurseA\Back.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Enemy\NurseA\Front.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Enemy\NurseA\Left.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Enemy\NurseA\Right.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Enemy\NurseB\Back.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Enemy\NurseB\Front.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Enemy\NurseB\Left.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Enemy\NurseB\Right.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Game Items\ACross.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Game Items\AdultsBedLong.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Game Items\AdultsBedSideL.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Game Items\AdultsBedSideR.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Game Items\ChairBack.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Game Items\ChairFront.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Game Items\Desk.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Game Items\DeskChairOtherSide.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Game Items\DeskChairSide.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Game Items\PlantBlueBase.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Game Items\Table.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Game Items\TestTubeBottle.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Game Items\Wardrope.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\NPC\OldMan\Back.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\NPC\OldMan\Front.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\NPC\OldMan\fullart1.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\NPC\PatientZelda\Front.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\NPC\PatientZelda\Left.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\NPC\PatientZelda\Right.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Player Images\fullart2.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Player Images\JBW.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Player Images\JBWTick.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Player Images\JFW - Copy.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Player Images\JFW.bak.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Player Images\JFW.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Player Images\JLW.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Content\Player Images\JRW.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\A-Button.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\B-Button.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\BlueDoll.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\exit.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\HudText.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\load.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\resume.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\save.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\square2.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\start.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\X-Button.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\BoardRoomBackground.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\GameOver.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\Hall1Background.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\HallandEnterenceBackground.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\MainMenu.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\MatronsOfficeBackground.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\SecondWardBackground.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Backgrounds\SpawnRoomBackground.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\JumpScare\Front.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\Martha\Back.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\Martha\Front.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\Martha\Left.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\Martha\Right.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\NurseA\Back.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\NurseA\Front.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\NurseA\Left.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\NurseA\Right.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\NurseB\Back.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\NurseB\Front.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\NurseB\Left.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Enemy\NurseB\Right.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\ACross.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\AdultsBedLong.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\AdultsBedSideL.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\AdultsBedSideR.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\ChairBack.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\ChairFront.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\Desk.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\DeskChairOtherSide.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\DeskChairSide.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\PlantBlueBase.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\Table.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\TestTubeBottle.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Game Items\Wardrope.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\NPC\OldMan\Back.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\NPC\OldMan\Front.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\NPC\OldMan\fullart1.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\NPC\PatientZelda\Front.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\NPC\PatientZelda\Left.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\NPC\PatientZelda\Right.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Player Images\fullart2.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Player Images\JBW.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Player Images\JBWTick.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Player Images\JFW - Copy.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Player Images\JFW.bak.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Player Images\JFW.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Player Images\JLW.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\Player Images\JRW.xnb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\Content\NPC\OldMan\Back.png
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\The Infirmary.exe
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\The Infirmary.pdb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\GMTB.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\SharpDX.RawInput.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\GMTB.pdb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\SharpDX.RawInput.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\The Infirmary\obj\x86\Debug\The_Infirmary.csprojResolveAssemblyReference.cache

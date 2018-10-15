@@ -357,3 +357,29 @@ X:\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.XInput.xml
 X:\GMTB-V2\GMTB\obj\x86\Debug\GMTB.csprojResolveAssemblyReference.cache
 X:\GMTB-V2\GMTB\obj\x86\Debug\GMTB.dll
 X:\GMTB-V2\GMTB\obj\x86\Debug\GMTB.pdb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\GMTB.dll.config
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\GMTB.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\GMTB.pdb
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\MonoGame.Framework.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.XAudio2.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.DXGI.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.Direct3D11.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.Direct2D1.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.XInput.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.RawInput.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.Direct3D9.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\MonoGame.Framework.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.XAudio2.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.DXGI.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.Direct3D11.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.Direct2D1.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.XInput.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.RawInput.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\bin\Windows\Debug\SharpDX.Direct3D9.xml
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\obj\x86\Debug\GMTB.csprojResolveAssemblyReference.cache
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\obj\x86\Debug\GMTB.dll
+C:\Users\James\Dropbox\_Code Projects\GMTB-V2\GMTB\obj\x86\Debug\GMTB.pdb

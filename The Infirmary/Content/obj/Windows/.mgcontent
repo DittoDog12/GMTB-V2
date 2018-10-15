@@ -4,64 +4,64 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>E:/GMTB-V2/The Infirmary/Content/HudText.spritefont</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/start.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Backgrounds/BoardRoomBackground.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Backgrounds/GameOver.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Backgrounds/Hall1Background.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Backgrounds/HallandEnterenceBackground.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Backgrounds/MainMenu.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Backgrounds/MatronsOfficeBackground.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Backgrounds/SecondWardBackground.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Backgrounds/SpawnRoomBackground.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/A-Button.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/B-Button.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/BlueDoll.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/exit.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/load.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/resume.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/save.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/square2.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/X-Button.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Enemy/JumpScare/Front.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Enemy/Martha/Back.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Enemy/Martha/Front.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Enemy/Martha/Left.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Enemy/Martha/Right.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Enemy/NurseA/Back.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Enemy/NurseA/Front.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Enemy/NurseA/Left.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Enemy/NurseA/Right.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Enemy/NurseB/Back.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Enemy/NurseB/Front.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Enemy/NurseB/Left.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Enemy/NurseB/Right.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Game Items/ACross.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Game Items/AdultsBedLong.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Game Items/AdultsBedSideL.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Game Items/AdultsBedSideR.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Game Items/ChairBack.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Game Items/ChairFront.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Game Items/Desk.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Game Items/DeskChairOtherSide.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Game Items/DeskChairSide.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Game Items/PlantBlueBase.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Game Items/Table.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Game Items/TestTubeBottle.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Game Items/Wardrope.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/NPC/OldMan/Back.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/NPC/OldMan/Front.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/NPC/OldMan/fullart1.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/NPC/PatientZelda/Front.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/NPC/PatientZelda/Left.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/NPC/PatientZelda/Right.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Player Images/fullart2.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Player Images/JBW.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Player Images/JBWTick.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Player Images/JFW - Copy.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Player Images/JFW.bak.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Player Images/JFW.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Player Images/JLW.png</File>
-    <File>E:/GMTB-V2/The Infirmary/Content/Player Images/JRW.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/HudText.spritefont</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/start.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Backgrounds/BoardRoomBackground.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Backgrounds/GameOver.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Backgrounds/Hall1Background.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Backgrounds/HallandEnterenceBackground.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Backgrounds/MainMenu.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Backgrounds/MatronsOfficeBackground.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Backgrounds/SecondWardBackground.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Backgrounds/SpawnRoomBackground.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/A-Button.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/B-Button.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/BlueDoll.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/exit.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/load.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/resume.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/save.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/square2.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/X-Button.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Enemy/JumpScare/Front.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Enemy/Martha/Back.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Enemy/Martha/Front.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Enemy/Martha/Left.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Enemy/Martha/Right.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Enemy/NurseA/Back.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Enemy/NurseA/Front.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Enemy/NurseA/Left.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Enemy/NurseA/Right.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Enemy/NurseB/Back.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Enemy/NurseB/Front.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Enemy/NurseB/Left.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Enemy/NurseB/Right.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Game Items/ACross.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Game Items/AdultsBedLong.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Game Items/AdultsBedSideL.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Game Items/AdultsBedSideR.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Game Items/ChairBack.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Game Items/ChairFront.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Game Items/Desk.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Game Items/DeskChairOtherSide.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Game Items/DeskChairSide.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Game Items/PlantBlueBase.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Game Items/Table.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Game Items/TestTubeBottle.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Game Items/Wardrope.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/NPC/OldMan/Back.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/NPC/OldMan/Front.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/NPC/OldMan/fullart1.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/NPC/PatientZelda/Front.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/NPC/PatientZelda/Left.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/NPC/PatientZelda/Right.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Player Images/fullart2.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Player Images/JBW.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Player Images/JBWTick.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Player Images/JFW - Copy.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Player Images/JFW.bak.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Player Images/JFW.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Player Images/JLW.png</File>
+    <File>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Player Images/JRW.png</File>
   </SourceFiles>
 </SourceFileCollection>

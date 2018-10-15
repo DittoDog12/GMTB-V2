@@ -55,7 +55,12 @@ namespace GMTB
             mDisplay = Display;
             mActive = true;
         }
-
+        public void Display(string Display, Vector2 pos)
+        {
+            mDisplay = Display;
+            mPosition = pos;
+            mActive = true;
+        }
         #endregion
     }
 }

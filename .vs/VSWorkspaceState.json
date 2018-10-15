@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\GMTB"
   ],
-  "SelectedNode": "\\GMTB.sln",
+  "SelectedNode": "\\GMTB\\DialogueBox.cs",
   "PreviewInSolutionExplorer": false
 }
