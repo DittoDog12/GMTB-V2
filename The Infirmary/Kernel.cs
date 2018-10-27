@@ -17,10 +17,15 @@ namespace The_Infirmary
         public static int ScreenWidth;
         public static int ScreenHeight;
 
-        private int TotalLevels = 6;
+        private int TotalLevels = 2;
         private string LevelPath = "The_Infirmary.Levels.L";
 
         private string mSaveDataID = "The Infirmary";
+
+        public Camera2D Camera = new Camera2D();
+
+        private float FrameRate = 15f;
+        private float Timer = 0f;
 
         public Kernel()
         {
@@ -125,6 +130,9 @@ namespace The_Infirmary
                 Global.GameState = Global.availGameStates.Playing;
                 Input.getInstance.SubscribeExit(onEsc);
 
+                Camera.UpdateX(GameManager.getInstance.GetPlayer().Position.X);
+                Camera.UpdateY(368);
+
                 if (MenuManager.getInstance.PauseMenu() != null)
                     MenuManager.getInstance.PauseMenu().unSub();
             }
@@ -149,7 +157,8 @@ namespace The_Infirmary
                 MenuManager.getInstance.GameOverMenu().Initialize(spriteBatch);          
                 MenuManager.getInstance.GameOverMenu().Update(gameTime);
             }
-                
+
+            Camera.Update(gameTime);
             CoreManager.getInstance.Update(gameTime);
             base.Update(gameTime);
         }
@@ -163,10 +172,18 @@ namespace The_Infirmary
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
-            if (Global.GameState == Global.availGameStates.Menu)
-                MenuManager.getInstance.MainMenu().Draw(spriteBatch);
-            else
-                CoreManager.getInstance.Draw(spriteBatch);
+            Timer += (float)gameTime.ElapsedGameTime.TotalMilliseconds;
+            if (Timer > FrameRate)
+            {
+                if (Global.GameState == Global.availGameStates.Menu)
+                    MenuManager.getInstance.MainMenu().Draw(spriteBatch);
+                else if (Global.GameState == Global.availGameStates.Playing)
+                    CoreManager.getInstance.Draw(spriteBatch, Camera, GraphicsDevice);
+                else
+                    CoreManager.getInstance.Draw(spriteBatch);
+
+                Timer = 0f;
+            }
             base.Draw(gameTime);
         }
 

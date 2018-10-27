@@ -87,7 +87,7 @@ namespace GMTB
                 FrameReset();
             }      
         }
-        public void OnNewInput(object source, InputEvent args)
+        public virtual void OnNewInput(object source, InputEvent args)
         {
             if (!mVisible)
             {

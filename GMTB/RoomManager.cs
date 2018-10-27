@@ -42,8 +42,12 @@ namespace GMTB
         #region Methods
         public void Draw(SpriteBatch spriteBatch)
         {
-            Background = Content.Load<Texture2D>(mRoom);
-            spriteBatch.Draw(Background, new Rectangle(0, 0, 800, 480), Color.White);
+            // FIX THIS
+            if (mRoom != null)
+            {
+                Background = Content.Load<Texture2D>(mRoom);
+                spriteBatch.Draw(Background, new Rectangle(0, 0, 800, 480), Color.White);
+            }     
         }
         #endregion
     }

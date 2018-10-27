@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/B-Button.png</SourceFile>
+  <SourceFile>E:/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/B-Button.png</SourceFile>
   <SourceTime>2018-05-03T14:15:56+01:00</SourceTime>
-  <DestFile>C:/Users/James/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/bin/Windows/B-Button.xnb</DestFile>
-  <DestTime>2018-10-12T11:45:13.3105107+01:00</DestTime>
+  <DestFile>E:/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/bin/Windows/B-Button.xnb</DestFile>
+  <DestTime>2018-10-27T11:29:46.1828537+01:00</DestTime>
   <Importer>TextureImporter</Importer>
-  <ImporterTime>2016-03-30T07:36:08+01:00</ImporterTime>
+  <ImporterTime>2018-09-23T22:55:52+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
-  <ProcessorTime>2016-03-30T07:36:08+01:00</ProcessorTime>
+  <ProcessorTime>2018-09-23T22:55:52+01:00</ProcessorTime>
   <Parameters>
     <Key>ColorKeyColor</Key>
     <Value>255,0,255,255</Value>

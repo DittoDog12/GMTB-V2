@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>X:/GMTB-V2/The Infirmary/Content/Game Items/PlantBlueBase.png</SourceFile>
+  <SourceFile>E:/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/Game Items/PlantBlueBase.png</SourceFile>
   <SourceTime>2017-06-01T23:17:04+01:00</SourceTime>
-  <DestFile>X:/GMTB-V2/The Infirmary/Content/bin/Windows/Content/Game Items/PlantBlueBase.xnb</DestFile>
-  <DestTime>2018-09-25T17:30:46+01:00</DestTime>
+  <DestFile>E:/Dropbox/_Code Projects/GMTB-V2/The Infirmary/Content/bin/Windows/Content/Game Items/PlantBlueBase.xnb</DestFile>
+  <DestTime>2018-10-27T11:26:05.1595613+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-09-23T22:55:52+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

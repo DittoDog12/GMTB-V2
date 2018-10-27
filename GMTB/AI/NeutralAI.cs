@@ -103,12 +103,7 @@ namespace GMTB.AI
                 }
                 else if (TimesHit == 17)
                 {
-                    Script.getInstance.SingleDialogue("*Sigh* 'Give me the Booty', there I said it");
-                    TimesHit++;
-                }
-                else if (TimesHit >= 20)
-                {
-                    Script.getInstance.SingleDialogue("I said it once I won't say it again");
+                    Script.getInstance.SingleDialogue("*Sigh*");
                     TimesHit++;
                 }
                 else

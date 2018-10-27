@@ -56,7 +56,7 @@
     <Compile Include="AI\LowLevelAI.cs" />
     <Compile Include="AI\NeutralAI.cs" />
     <Compile Include="AManager.cs" />
-    <Compile Include="Camera2D.cs" />
+    <Compile Include="PlatformerSubsystem\Camera2D.cs" />
     <Compile Include="FullArtRenderer.cs" />
     <Compile Include="GameOver.cs" />
     <Compile Include="IInventory.cs" />
@@ -72,6 +72,11 @@
     <Compile Include="MenuManager.cs" />
     <Compile Include="PauseMenu.cs" />
     <Compile Include="hasProximity.cs" />
+    <Compile Include="PlatformerSubsystem\hasJump.cs" />
+    <Compile Include="PlatformerSubsystem\ISolidObject.cs" />
+    <Compile Include="PlatformerSubsystem\JumpManager.cs" />
+    <Compile Include="PlatformerSubsystem\PlatformerPlayer.cs" />
+    <Compile Include="PlatformerSubsystem\SolidGround.cs" />
     <Compile Include="ProximityManager.cs" />
     <Compile Include="CollisionManager.cs" />
     <Compile Include="CoreManager.cs" />
